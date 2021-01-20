@@ -6,6 +6,6 @@
 
 ---
 
-* [초기 설정](undefined.md)
-* [예제 게임](undefined-2.md)
+* [초기 설정](initial_settings.md)
+* [예제 게임](example_game.md)
 
