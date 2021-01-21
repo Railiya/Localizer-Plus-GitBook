@@ -8,9 +8,11 @@ description: 에셋의 핵심
 
 언어에 따른 내용을 제외한 실질적인 내용이 변경되지 않는 오브젝트의 경우에 사용하기 적합합니다.
 
-![&#xD638;&#xCD9C; &#xD55C; &#xBC88;&#xC73C;&#xB85C; &#xC5B8;&#xC5B4;&#xAC00; &#xBC14;&#xB00C;&#xB2E4;&#xB2C8;! &#xAD49;&#xC7A5;&#xD574;!](../../.gitbook/assets/example_game_main.png)
+![](../../.gitbook/assets/example_game_main.png)
 
 예제 게임에서의 Quest List, Sample Game, Language 등의 텍스트는 언어에 따라 고정된 내용으로 변하기 때문에 가장 적절한 예시입니다.
+
+다만 퀘스트의 내용들 또한 **Text Localizer** 가 적용되어 있습니다. 이들은 _Use Script Only_가 활성화되어 있어 코 상에서 **Localized Dictionary**의 내용을 받아 텍스트를 변경합니다.
 
 
 
