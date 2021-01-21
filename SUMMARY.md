@@ -2,12 +2,13 @@
 
 * [Localizer Plus Document](README.md)
 
-## 이제 시작 해볼까 합니다. <a id="getting-started"></a>
+## 이제 시작 해볼까 합니다 <a id="getting-started"></a>
 
 ---
 
 * [초기 설정](initial-settings.md)
 * [예제 게임](example-game.md)
+* [문제 해결](troubleshooting.md)
 
 ## Localizer Components
 

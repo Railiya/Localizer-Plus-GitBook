@@ -1,5 +1,5 @@
 ---
-description: 그래서 이게 뭐죠?
+description: 에셋에 관하여..
 ---
 
 # Localizer Plus Document
