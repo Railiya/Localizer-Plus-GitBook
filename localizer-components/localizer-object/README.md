@@ -8,7 +8,7 @@ description: 에셋의 핵심
 
 언어에 따른 내용을 제외한 실질적인 내용이 변경되지 않는 오브젝트의 경우에 사용하기 적합합니다.
 
-![](../../.gitbook/assets/example_game_main.png)
+![&#xD568;&#xC218; &#xD638;&#xCD9C; &#xD55C; &#xBC88;&#xC774;&#xBA74; &#xB41C;&#xB2E4;&#xACE0;? &#xC138;&#xC5D0;&#xC0C1;&#xC5D0;!](../../.gitbook/assets/example_game_main.png)
 
 예제 게임에서의 Quest List, Sample Game, Language 등의 텍스트는 언어에 따라 고정된 내용으로 변하기 때문에 가장 적절한 예시입니다.
 
