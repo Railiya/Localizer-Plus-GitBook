@@ -4,3 +4,17 @@ description: 에셋의 핵심
 
 # Localizer Object
 
+텍스트, 이미지, 오디오 등 실질적으로 게임에서 렌더링 되고 사운드를 재생하는 게임 오브젝트들에게 컴포넌트 형식으로 로컬라이징을 지원합니다. 이 컴포넌트들은 _LocalizerManager.SetLanguage_ 함수가 호출되면 해당 언어에 맞는 내용을 찾아 교체하게 됩니다.
+
+언어에 따른 내용을 제외한 실질적인 내용이 변경되지 않는 오브젝트의 경우에 사용하기 적합합니다.
+
+![&#xD638;&#xCD9C; &#xD55C; &#xBC88;&#xC73C;&#xB85C; &#xC5B8;&#xC5B4;&#xAC00; &#xBC14;&#xB00C;&#xB2E4;&#xB2C8;! &#xAD49;&#xC7A5;&#xD574;!](../../.gitbook/assets/example-_game_main.png)
+
+예제 게임에서의 Quest List, Sample Game, Language 등의 텍스트는 언어에 따라 고정된 내용으로 변하기 때문에 가장 적절한 예시입니다.
+
+
+
+**Text Localizer** 와 **TMP Localizer** 는 컴포넌트 그 자체적으로 언어 변경에 따라 폰트, 라인 스페이싱 등을 바꿀 수 있으며 기존의 고정된 형식의 내용 변경이 아닌 스크립트에서 직접 텍스트를 수정하는 것 또한 가능하기 때문에 사용 범위가 더 넓습니다.
+
+각 Localizer 들에 대한 자세한 내용은 하위 목록에서 찾아볼 수 있습니다.
+

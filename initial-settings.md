@@ -10,7 +10,7 @@ description: 시작하기 전에 갖추어야할 필수 덕목
 
 _LocalizerPlus - Scripts - Runtime_ 폴더에 있는 _LocalizerManager.cs_ 스크립트를 열어 _Languages_ string 배열에 지원할 언어들을 설정하기만 하면 됩니다.
 
-![](.gitbook/assets/initial_settings_languages.png)
+![&#xC138;&#xC0C1;&#xC5D0;! &#xC774;&#xAC83;&#xB9CC; &#xBC14;&#xAFB8;&#xBA74; &#xB41C;&#xB2E4;&#xACE0;? &#xB9D9;&#xC18C;&#xC0AC;!](.gitbook/assets/initial_settings_languages.png)
 
 **Localizer Component**, **Localized Dictionary**, **LString** 및 여러 에디터 윈도우들 모두가 _LocalizerManager.Languages_ 를 참조하여 로컬라이징을 지원하게 됩니다. **일부 기능들은 배열의 각 인덱스들을 참조하도록 되어 있어 가급적 언어를 지우는 행위는 하지 말아야 합니다.** 언어를 추가하는 것에 대해서는 문제가 없습니다.
 
