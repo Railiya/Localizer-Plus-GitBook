@@ -12,7 +12,7 @@ description: 에셋의 핵심
 
 예제 게임에서의 Quest List, Sample Game, Language 등의 텍스트는 언어에 따라 고정된 내용으로 변하기 때문에 가장 적절한 예시입니다.
 
-다만 퀘스트의 내용들 또한 **Text Localizer** 가 적용되어 있습니다. 이들은 _Use Script Only_가 활성화되어 있어 코 상에서 **Localized Dictionary**의 내용을 받아 텍스트를 변경합니다.
+다만 퀘스트의 내용들 또한 **Text Localizer** 가 적용되어 있습니다. 이들은 _Use Script Only_가 활성화되어 있어 코드 상에서 **Localized Dictionary**의 내용을 받아 텍스트를 변경합니다.
 
 
 
