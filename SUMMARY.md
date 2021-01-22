@@ -21,3 +21,8 @@
   * [Dropdown Localizer](localizer-components/localizer-object/drop-down-localizer.md)
 * [레퍼런스](localizer-components/localizer-object-ref.md)
 
+## 개발자 노트 <a id="development-note"></a>
+
+* [릴리스 노트](development-note/release-notes.md)
+* [지원 예정](development-note/undefined.md)
+
