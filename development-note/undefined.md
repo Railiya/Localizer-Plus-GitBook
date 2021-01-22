@@ -9,12 +9,13 @@ description: 향후 개발 예정에 있거나 고민중인 사항들
 1. [ ] 메인 메뉴 \(언어 변경\) - 인 게임 로딩 중 cscrt 로드 예제 추가
 2. [ ] 첫 번째 예제 게임 시작시 초기 언어 설정 넣기
 3. [ ] 첫 번째 예제 게임에서 cscrt 관련 스크립트 제거 및 Localized Dictionary로 변경
-4. [ ] Text Localizer \(및 TMP Localizer\) 의 오버라이딩 옵션과 해당되는 값들을 Style Localizer 컴포넌트로 분할 \(성능적 이슈 보완\)
-5. [x] Localized Dictionary 인스펙터 내에서 새로운 KeyContentsPair 임포트 기능 넣기
-6. [x] Localized Dictionary 에서 Open Script Writer 가능 넣기
-7. [x] Script Writer 상단 메뉴 File 하위 목록의 이름들 변
-8. [ ] Localized Dictionary 및 swnc 파일을 실시간으로 인 게임 UI에 적용해가며 테스트하기 위한 새로운 에디터 윈도우 도입
-9. [ ] Right To Left 기능 도입
+4. [x] Text Localizer \(및 TMP Localizer\) 의 오버라이딩 옵션과 해당되는 값들을 Style Localizer 컴포넌트로 분할 \(성능적 이슈 보완\)
+5. [x] Text 및 Sprite Localizer 세분화 \(Text, TextMesh, Sprite, Image\)
+6. [x] Localized Dictionary 인스펙터 내에서 새로운 KeyContentsPair 임포트 기능 넣기
+7. [x] Localized Dictionary 에서 Open Script Writer 가능 넣기
+8. [x] Script Writer 상단 메뉴 File 하위 목록의 이름들 변경
+9. [ ] Localized Dictionary 및 swnc 파일을 실시간으로 인 게임 UI에 적용해가며 테스트하기 위한 새로운 에디터 윈도우 도입
+10. [ ] Right To Left 기능 도입
 
 ## 우리들의 소통 현황
 
