@@ -27,6 +27,7 @@ description: 향후 개발 예정에 있거나 고민중인 사항들
 * Text 와 Text Mesh, Sprite와 Image 각각의 Localizer를 나눠 RequireComponent 애트리뷰트를 사용하는 것이 사용하는 이의 측면에서 바람직하다.
 * Localized Dictionary 의 임포트 기능이 너무 깊이 있다.
 * 에디터들의 상단 메뉴의 단어 통일성이 부족하다. \(Edit.. Export..\)
+* 내가 말한 건 그게 아닐텐데.
 
 ## 개발자의 한 마디
 
