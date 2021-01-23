@@ -24,5 +24,5 @@
 ## 개발자 노트 <a id="development-note"></a>
 
 * [릴리스 노트](development-note/release-notes.md)
-* [지원 예정](development-note/undefined.md)
+* [지원 예정](development-note/support-notes.md)
 
