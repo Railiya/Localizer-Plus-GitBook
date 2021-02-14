@@ -6,7 +6,7 @@
 
 ---
 
-* [초기 설정](initial-settings.md)
+* [언어 설정](language-settings.md)
 * [예제 게임](example-game.md)
 * [문제 해결](troubleshooting.md)
 
