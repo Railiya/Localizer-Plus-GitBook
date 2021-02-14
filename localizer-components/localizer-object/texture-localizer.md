@@ -6,8 +6,6 @@
 
 ## 인스펙터 변수
 
-![](../../.gitbook/assets/texture_localizer_inspector.png)
-
 ## Use Shared Material
 
 **sharedMaterial** 의 **mainTexture**를 변경합니다. 이 작업은 매트리얼을 공유하는 모든 렌더러들에게 영향을 줍니다. 기본값은 true 입니다. 비활성화 시 렌더러의 인스턴스 material 의 texture를 변경합니다. **이 작업은 에디터 상태에서는 이루어지지 않으며 비활성화를 권장하지 않습니다.**
