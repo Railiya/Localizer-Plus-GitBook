@@ -8,13 +8,13 @@ description: 에셋의 핵심
 
 **Localizer Object**의 언어를 변경하기 위해서는 **Localizer Manager**의 **SetLanguage** 를 호출합니다. 현재 언어의 정보를 가져오려면 **SelectedLanguage** 혹은 **SelectedLanguageIndex**를 통해 가져올 수 있습니다. 언어가 변경되었을 때 호출되는 이벤트가 필요하다면 **OnLanguageChagned** 델리게이트를 사용합니다.
 
-| Static Properties |  |
+| Static Properties { get } |  |
 | :--- | :--- |
 | Languages : [LanguageInfo](languageinfo.md)\[\] | 프로젝트의 언어 목록을 가져옵니다. |
 | SelectedLanguage : [LanguageInfo](languageinfo.md) | 현재 적용된 언어의 [LanguageInfo](languageinfo.md)를 가져옵니다. |
 | SelectedLanguageIndex : int | 현재 적용된 언어의 인덱스를 가져옵니다. |
 
-| Static Delegates |  |
+| Static Delegates { get set } |  |
 | :--- | :--- |
 | OnLanguageChanged&lt;[LanguageInfo](languageinfo.md)&gt; | SetLanguage가 호출될 경우 실행되는 이벤트입니다. |
 
