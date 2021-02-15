@@ -25,7 +25,7 @@ public DropdownLocalizerObject : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LOptionDataList | [LocalizerOptionDataList ](localizer-option-data-list.md)타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LOptionDataList | [LocalizerOptionDataList ](localizer-option-data-list/)타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
 
 | **Properties** |  |
 | :--- | :--- |
