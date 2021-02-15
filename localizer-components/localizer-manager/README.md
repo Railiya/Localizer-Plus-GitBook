@@ -2,7 +2,7 @@
 description: 에셋의 핵심
 ---
 
-# LocalizerManager
+# Localizer Manager
 
 언어 설정 및 **Localizer Object** 를 관리하는 static class입니다.
 
@@ -18,13 +18,15 @@ public static class LocalizerManager {
     public static event System.Action<LanguageInfo> OnLanguageChange;
     
     public static void SetLanguage (string language) { }
-    public static void SetLanguage (SystemLanguage language) { }
+    public static void SetLanguage (UnityEngine.SystemLanguage language) { }
     public static void SetLanguageToDefault () { }
+    
     public static void RemoveNullObjects () { }
     public static T[] GetLocalizersOfType<T> () where T : LocalizerObject { }
+    
     public static int IndexOfLanguage (LanguageInfo language) { }
     public static int IndexOfLanguage (string language { }
-    public static int IndexOfLanguage (SystemLanguage language) { }
+    public static int IndexOfLanguage (UnityEngine.SystemLanguage language) { }
 }
 ```
 {% endcode %}
@@ -32,7 +34,7 @@ public static class LocalizerManager {
 | Static Properties |  |
 | :--- | :--- |
 | Languages | 프로젝트의 언어 목록을 가져옵니다. |
-| SelectedLanguage | 현재 적용된 언어의 [LanguageInfo](languageinfo.md)를 가져옵니다. |
+| SelectedLanguage | 현재 적용된 언어의 [LanguageInfo](language-info.md)를 가져옵니다. |
 | SelectedLanguageIndex | 현재 적용된 언어의 인덱스를 가져옵니다. |
 
 | Static Events |  |

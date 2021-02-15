@@ -1,4 +1,4 @@
-# TextureLocalizer
+# Texture Localizer
 
 ## 사용 가능한 컴포넌트
 

@@ -1,2 +1,2 @@
-# TMPStyleLocalizer
+# TMP Style Localizer
 

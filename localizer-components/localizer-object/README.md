@@ -2,7 +2,7 @@
 description: 에셋의 핵심의 핵심
 ---
 
-# LocalizerObject
+# Localizer Object
 
 텍스트, 이미지, 오디오 등 실질적으로 게임에서 렌더링 되고 사운드를 재생하는 게임 오브젝트들에게 컴포넌트 형식으로 로컬라이징을 지원합니다. 이 컴포넌트들은 _LocalizerManager.SetLanguage_ 함수가 호출되면 해당 언어에 맞는 내용을 찾아 교체하게 됩니다.
 

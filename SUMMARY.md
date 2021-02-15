@@ -12,19 +12,19 @@
 
 ## Localizer Components
 
-* [LocalizerManager](localizer-components/localizer-manager/README.md)
-  * [LanguageInfo](localizer-components/localizer-manager/languageinfo.md)
-* [LocalizerObject](localizer-components/localizer-object/README.md)
-  * [TextLocalizerObject](localizer-components/localizer-object/text-localizer-object/README.md)
-    * [TextLocalizer](localizer-components/localizer-object/text-localizer-object/textlocalizer.md)
-    * [TextMeshLocalizer](localizer-components/localizer-object/text-localizer-object/textmeshlocalizer.md)
-    * [TMPTextLocalizer](localizer-components/localizer-object/text-localizer-object/tmptextlocalizer.md)
-  * [SpriteLocalizerObject](localizer-components/localizer-object/sprite-localizer-object.md)
-  * [DropdownLocalizerObject](localizer-components/localizer-object/dropdown-localizer-object.md)
-  * [AudioLocalizer](localizer-components/localizer-object/audio-localizer.md)
-  * [TextureLocalizer](localizer-components/localizer-object/texture-localizer.md)
-  * [TextStyleLocalizer](localizer-components/localizer-object/text-style-localizer.md)
-  * [TMPStyleLocalizer](localizer-components/localizer-object/tmp-style-localizer.md)
+* [Localizer Manager](localizer-components/localizer-manager/README.md)
+  * [Language Info](localizer-components/localizer-manager/language-info.md)
+* [Localizer Object](localizer-components/localizer-object/README.md)
+  * [Text Localizer Object](localizer-components/localizer-object/text-localizer-object/README.md)
+    * [Text Localizer](localizer-components/localizer-object/text-localizer-object/text-localizer.md)
+    * [Text Mesh Localizer](localizer-components/localizer-object/text-localizer-object/text-mesh-localizer.md)
+    * [TMP Text Localizer](localizer-components/localizer-object/text-localizer-object/tmp-text-localizer.md)
+  * [Sprite Localizer Object](localizer-components/localizer-object/sprite-localizer-object.md)
+  * [Dropdown Localizer Object](localizer-components/localizer-object/dropdown-localizer-object.md)
+  * [Audio Localizer](localizer-components/localizer-object/audio-localizer.md)
+  * [Texture Localizer](localizer-components/localizer-object/texture-localizer.md)
+  * [Text Style Localizer](localizer-components/localizer-object/text-style-localizer.md)
+  * [TMP Style Localizer](localizer-components/localizer-object/tmp-style-localizer.md)
 * [TagFormatter](localizer-components/tag-formatter.md)
 
 ## 개발자 노트 <a id="development-note"></a>
