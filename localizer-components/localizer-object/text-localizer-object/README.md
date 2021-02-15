@@ -6,6 +6,8 @@ description: 'base class : LocalizerObject'
 
 **Text Localizer, Text Mesh Localizer, TMP Text Localizer**의 베이스 클래스입니다.
 
+## 레퍼런스
+
 {% code title="LocalizerObject.cs" %}
 ```csharp
 public class LString : LValue<string> { }

@@ -8,6 +8,8 @@ description: 에셋의 핵심
 
 **Localizer Object**의 언어를 변경하기 위해서는 **Localizer Manager**의 **SetLanguage** 를 호출합니다. 현재 언어의 정보를 가져오려면 **SelectedLanguage** 혹은 **SelectedLanguageIndex**를 통해 가져올 수 있습니다. 언어가 변경되었을 때 호출되는 이벤트가 필요하다면 **OnLanguageChagned**를 사용합니다.
 
+## 레퍼런스
+
 {% code title="LocalizerManager.cs" %}
 ```csharp
 public static class LocalizerManager {

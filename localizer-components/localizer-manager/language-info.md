@@ -2,6 +2,8 @@
 
 언어의 정보를 나타냅니다.
 
+## 레퍼런스
+
 {% code title="LocalizerManager.cs" %}
 ```csharp
 public class LanguageInfo {
