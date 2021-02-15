@@ -22,23 +22,9 @@ public class LanguageInfo {
 | LanguageText | 언어의 텍스트를 가져옵니다. |
 | SystemLanguage | 언어의 SystemLanguage를 가져옵니다. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Constructors</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">LanguageInfo</td>
-      <td style="text-align:left">
-        <p>LanguageText, SystemLanguage&#xB97C; &#xAC00;&#xC9C4;</p>
-        <p>LanguageInfo&#xB97C; &#xC0DD;&#xC131;&#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Constructors |  |
+| :--- | :--- |
+| LanguageInfo | LanguageText, SystemLanguage를 가진 LanguageInfo를 생성합니다. |
 
 <table>
   <thead>

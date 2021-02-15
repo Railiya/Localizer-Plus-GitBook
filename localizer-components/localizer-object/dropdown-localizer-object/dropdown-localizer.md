@@ -10,30 +10,10 @@ UGUI Dropdown 컴포넌트에 사용되는 Localizer 컴포넌트 입니다.
 
 ![](../../../.gitbook/assets/dropdown_localizer_inspector.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Properties</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Option Size</td>
-      <td style="text-align:left">&#xD56D;&#xBAA9;&#xC758; &#xC218;&#xB97C; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">LOptions</td>
-      <td style="text-align:left">
-        <p>&#xC5B8;&#xC5B4;&#xBCC4; &#xB4DC;&#xB86D;&#xB2E4;&#xC6B4; &#xC635;&#xC158;&#xB4E4;&#xC744;
-          &#xC9C0;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC5B8;&#xC5B4;&#xAC00; &#xBCC0;&#xACBD;&#xB420; &#xACBD;&#xC6B0; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC758;
-          &#xC635;&#xC158;&#xB4E4;&#xC774; &#xBCC0;&#xACBD;&#xB41C; &#xC5B8;&#xC5B4;&#xC758;
-          &#xC635;&#xC158;&#xB4E4;&#xB85C; &#xC124;&#xC815;&#xB429;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Properties |  |
+| :--- | :--- |
+| OptionSize | 항목의 수를 설정합니다. |
+| LOptions | 언어별 드롭다운 옵션들을 지정합니다. 언어가 변경될 경우 컴포넌트의 옵션들이 변경된 언어의 옵션들로 설정됩니다. |
 
 ## 레퍼런스
 

@@ -10,25 +10,9 @@ TextMeshPro 및 TextMeshProUGUI 컴포넌트에 사용되는 Localizer 컴포넌
 
 ![](../../../.gitbook/assets/tmp_text_localizer_inspector.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Properties</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">LText</td>
-      <td style="text-align:left">
-        <p>&#xC5B8;&#xC5B4;&#xBCC4; &#xD14D;&#xC2A4;&#xD2B8;&#xB97C; &#xC9C0;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC5B8;&#xC5B4;&#xAC00; &#xBCC0;&#xACBD;&#xB420; &#xACBD;&#xC6B0; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC758;
-          &#xD14D;&#xC2A4;&#xD2B8;&#xAC00; &#xBCC0;&#xACBD;&#xB41C; &#xC5B8;&#xC5B4;&#xC758;
-          &#xD14D;&#xC2A4;&#xD2B8;&#xB85C; &#xC124;&#xC815;&#xB429;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Properties |  |
+| :--- | :--- |
+| LText | 언어별 텍스트를 지정합니다. 언어가 변경될 경우 컴포넌트의 텍스트가 변경된 언어의 텍스트로 설정됩니다. |
 
 ## 레퍼런스
 
