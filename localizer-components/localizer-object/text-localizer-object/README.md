@@ -4,7 +4,7 @@ description: 'base class : LocalizerObject'
 
 # Text Localizer Object
 
-**Text Localizer, Text Mesh Localizer, TMP Text Localizer**의 베이스 클래스입니다.
+**Text Localizer, Text Mesh Localizer, TMP Text Localizer, Text Custom Localizer**의 베이스 클래스입니다.
 
 ## 레퍼런스
 

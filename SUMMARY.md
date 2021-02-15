@@ -19,6 +19,7 @@
     * [Text Localizer](localizer-components/localizer-object/text-localizer-object/text-localizer.md)
     * [Text Mesh Localizer](localizer-components/localizer-object/text-localizer-object/text-mesh-localizer.md)
     * [TMP Text Localizer](localizer-components/localizer-object/text-localizer-object/tmp-text-localizer.md)
+    * [Text Custom Localizer](localizer-components/localizer-object/text-localizer-object/text-custom-localizer.md)
   * [Sprite Localizer Object](localizer-components/localizer-object/sprite-localizer-object/README.md)
     * [Sprite Localizer](localizer-components/localizer-object/sprite-localizer-object/sprite-localizer.md)
     * [Image Localizer](localizer-components/localizer-object/sprite-localizer-object/image-localizer.md)
