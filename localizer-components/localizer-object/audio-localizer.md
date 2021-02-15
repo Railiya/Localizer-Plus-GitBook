@@ -1,4 +1,4 @@
-# Audio Localizer
+# AudioLocalizer
 
 ## 사용 가능한 컴포넌트
 

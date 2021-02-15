@@ -1,4 +1,4 @@
-# Text Style Localizer
+# TextStyleLocalizer
 
 ##  Override Font <a id="override-font"></a>
 

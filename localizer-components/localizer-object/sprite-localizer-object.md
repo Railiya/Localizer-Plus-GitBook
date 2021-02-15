@@ -1,4 +1,4 @@
-# Sprite Localizer Object
+# SpriteLocalizerObject
 
 ## 사용 가능한 컴포넌트
 

@@ -1,4 +1,4 @@
-# Text Localizer Object
+# TextLocalizerObject
 
 ## 사용 가능한 컴포넌트
 
