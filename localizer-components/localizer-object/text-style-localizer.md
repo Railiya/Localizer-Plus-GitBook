@@ -1,3 +1,7 @@
+---
+description: 'base class : LocalizerObject'
+---
+
 # Text Style Localizer
 
 ##  Override Font <a id="override-font"></a>

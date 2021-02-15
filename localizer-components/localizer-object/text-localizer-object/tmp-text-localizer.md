@@ -49,7 +49,7 @@ public class TMPTextLocalizer : TextLocalizerObject {
 
 | Inherited Properties |  |
 | :--- | :--- |
-| Text | TMP\_Text 컴포넌트의 Text 값을 가져옵니다. |
+| Text | TMP\_Text 컴포넌트의 text 값을 가져옵니다. |
 
 <table>
   <thead>

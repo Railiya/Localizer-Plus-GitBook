@@ -2,20 +2,20 @@
 description: 'base class : LocalizerObject'
 ---
 
-# Text Localizer Object
+# Sprite Localizer Object
 
-**Text Localizer, Text Mesh Localizer, TMP Text Localizer**의 베이스 클래스입니다.
+**Sprite Localizer, Image Localizer**의 베이스 클래스입니다.
 
 ## 레퍼런스
 
 {% code title="LocalizerObject.cs" %}
 ```csharp
-public class LString : LValue<string> { }
+public class LSprite : LValue<UnityEngine.Sprite> { }
 
-public TextLocalizerObject : LocalizerObject {
-    public LString LText { get; set; }
+public SpriteLocalizerObject : LocalizerObject {
+    public LSprite LSprite { get; set; }
     
-    public abstract string Text { get; }
+    public abstract UnityEngine.Sprite Sprite { get; }
     public abstract override bool SetComponent () { }
 }
 ```
@@ -23,15 +23,15 @@ public TextLocalizerObject : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LString | string 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LSprite | Sprite 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
 
 | **Properties** |  |
 | :--- | :--- |
-| LText | 컴포넌트의 언어별 텍스트를 가져오거나 변경합니다. |
+| LSprite | 컴포넌트의 언어별 스프라이트를 가져오거나 변경합니다. |
 
 | Abstract Properties |  |
 | :--- | :--- |
-| Text | 컴포넌트의 text 값을 가져옵니다. |
+| Sprite | 컴포넌트의 스프라이트를 가져옵니다. |
 
 <table>
   <thead>

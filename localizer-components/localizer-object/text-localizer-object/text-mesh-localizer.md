@@ -49,7 +49,7 @@ public class TextMeshLocalizer : TextLocalizerObject {
 
 | Inherited Properties |  |
 | :--- | :--- |
-| Text | TextMesh 컴포넌트의 Text 값을 가져옵니다. |
+| Text | TextMesh 컴포넌트의 text 값을 가져옵니다. |
 
 <table>
   <thead>

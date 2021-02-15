@@ -2,20 +2,22 @@
 description: 'base class : LocalizerObject'
 ---
 
-# Text Localizer Object
+# Dropdown Localizer Object
 
-**Text Localizer, Text Mesh Localizer, TMP Text Localizer**의 베이스 클래스입니다.
+**Dropdown Localizer, TMP Dropdown Localizer**의 베이스 클래스입니다.
+
+Dropdown 과 TMP\_Dropdown에서 사용되는 OptionData 형식이 다르기 때문에 이 둘을 호환시켜주기 위해 **LocalizerOptionData**와 **LocalizerOptionDataList**를 사용합니다. 또한 편의성을 위해 상호간 변환 확장 함수가 제공됩니다.
 
 ## 레퍼런스
 
 {% code title="LocalizerObject.cs" %}
 ```csharp
-public class LString : LValue<string> { }
+public class LOptionDataList : LValue<LocalizerOptionDataList> { }
 
-public TextLocalizerObject : LocalizerObject {
-    public LString LText { get; set; }
+public DropdownLocalizerObject : LocalizerObject {
+    public LOptionDataList LOptions { get; set; }
     
-    public abstract string Text { get; }
+    public abstract LocalizerOptionDataList Options { get; }
     public abstract override bool SetComponent () { }
 }
 ```
@@ -23,15 +25,15 @@ public TextLocalizerObject : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LString | string 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LOptionDataList | [LocalizerOptionDataList ](localizer-option-data-list.md)타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
 
 | **Properties** |  |
 | :--- | :--- |
-| LText | 컴포넌트의 언어별 텍스트를 가져오거나 변경합니다. |
+| LOptions | 컴포넌트의 언어별 드롭다운 옵션들을 가져오거나 변경합니다. |
 
 | Abstract Properties |  |
 | :--- | :--- |
-| Text | 컴포넌트의 text 값을 가져옵니다. |
+| Options | 컴포넌트의 드롭다운 옵션들을 가져옵니다. |
 
 <table>
   <thead>
@@ -52,6 +54,4 @@ public TextLocalizerObject : LocalizerObject {
     </tr>
   </tbody>
 </table>
-
-
 

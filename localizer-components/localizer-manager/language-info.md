@@ -25,7 +25,7 @@ public class LanguageInfo {
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Constructor</th>
+      <th style="text-align:left">Constructors</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>

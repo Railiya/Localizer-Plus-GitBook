@@ -1,3 +1,7 @@
+---
+description: 'base class : LocalizerObject'
+---
+
 # Audio Localizer
 
 ## 사용 가능한 컴포넌트
