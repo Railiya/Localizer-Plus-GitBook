@@ -8,7 +8,7 @@
 ```csharp
 public class ClipData { 
     public UnityEngine.AudioClip clip;
-    public float volume;
+    public float volume = 1f;
     
     public ClipData () { }
     public ClipData (UnityEngine.AudioClip clip, float volume = 1f) { }

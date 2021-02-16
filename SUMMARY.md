@@ -31,8 +31,11 @@
   * [Audio Localizer](localizer-components/localizer-object/audio-localizer/README.md)
     * [Clip Data](localizer-components/localizer-object/audio-localizer/clip-data.md)
   * [Texture Localizer](localizer-components/localizer-object/texture-localizer.md)
-  * [Text Style Localizer](localizer-components/localizer-object/text-style-localizer.md)
-  * [TMP Style Localizer](localizer-components/localizer-object/tmp-style-localizer.md)
+  * [Text Style Localizer](localizer-components/localizer-object/text-style-localizer/README.md)
+    * [Style Data](localizer-components/localizer-object/text-style-localizer/style-data.md)
+  * [TMP Style Localizer](localizer-components/localizer-object/tmp-style-localizer/README.md)
+    * [Spacing Option](localizer-components/localizer-object/tmp-style-localizer/spacing-option.md)
+    * [Style Data](localizer-components/localizer-object/tmp-style-localizer/style-data.md)
 * [TagFormatter](localizer-components/tag-formatter.md)
 
 ## Localized Dictionary
