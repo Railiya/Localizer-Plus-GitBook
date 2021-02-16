@@ -14,7 +14,7 @@ public struct SpacingOption {
     
     public SpacingOption (float character, float word, float line, float paragraph) { }
     
-    public static SpacingOption FromVector4 (Vector4 vector) { }
+    public static SpacingOption FromVector4 (UnityEngine.Vector4 vector) { }
 }
 ```
 {% endcode %}
