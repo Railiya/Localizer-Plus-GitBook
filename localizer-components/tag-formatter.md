@@ -6,9 +6,11 @@ description: 누군가에게는 에셋의 핵심의 핵심
 
 **Text Localizer Object**, UGUI Text, TextMesh, TextMeshPro, TextMeshProUGUI에 사용되는 텍스트 내의 태그를 특정 문자열로 대체하는 컴포넌트입니다.
 
+{% hint style="info" %}
 **Text Localizer Object** 컴포넌트와 같이 사용할 경우 추가 작업 필요 없이 기존의 LText 수정 방식으로 사용하면 되며, Localizer 없이 사용한다면 **Tag Formatter** 의 Format 값을 설정하여 사용할 수 있습니다.
 
 **Tag Parameter** 기능을 사용하기 위해서는 **Tag Manager** 에 **Tag Parameter List**가 등록되어 있어야 합니다. **Tag Formatter**는 등록된 **Tag Parameter List**에서 **Tag Parameter**들을 참조하여 텍스트 내의 태그를 **Tag Parameter**의 값으로 변경합니다. **Tag Parameter**가 없을 경우 텍스트가 변경되지 않습니다.
+{% endhint %}
 
 ## 컴포넌트
 

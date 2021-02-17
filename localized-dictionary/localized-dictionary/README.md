@@ -6,7 +6,9 @@ description: LString 모음집 모음집
 
 **Key Content Pair** 리스트를 가지는 클래스입니다. 키 혹은 인덱스를 통해 **Key Content Pair**를 가져올 수 있으며 가져온 **Key Content Pair** 에서 키 혹은 인덱스를 통해 **LString**을 가져옵니다.
 
+{% hint style="info" %}
 스크립트 상에서 내용을 추가하는 방식 보다는 **Localized Dictionary Object**를 이용해 에디터에서 편집 하거나 CSV, TSV, 구글 스프레드 시트 등 파싱 정적 함수를 이용하는 것을 추천합니다.
+{% endhint %}
 
 ## 레퍼런스
 
