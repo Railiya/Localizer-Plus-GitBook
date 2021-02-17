@@ -80,6 +80,10 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 | Import | csv, tsv, 구글 스프레드 시트로부터 항목들을 추가합니다. |
 | Export | 현재 항목들을 csv 또는 tsv 파일로 추출합니다. |
 
+{% hint style="info" %}
+Allow Multiple Line 에 따라 에디터의 텍스트 영역의 종류가 달라집니다. false일 경우 텍스트 필드이며 탭을 통해 다음 컨트롤로 포커싱을 옮길 수 있습니다. true일 경우 텍스트 영역이며 \t 와 \n의 입력이 가능해집니다.
+{% endhint %}
+
 ## Key Content Pair Importer
 
 ![](../.gitbook/assets/key_content_pair_importer.png)
