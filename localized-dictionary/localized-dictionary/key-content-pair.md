@@ -8,7 +8,7 @@ description: LString 모음집
 
 ## 레퍼런스
 
-{% code title="LocalizedDictionaryObject.cs" %}
+{% code title="LocalizedDictionary.cs" %}
 ```csharp
 public class KeyContentPair {
     public LString this[int index] { get; }

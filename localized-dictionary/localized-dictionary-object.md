@@ -15,7 +15,7 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 | Editor Only |  |
 | :--- | :--- |
 | Language Selector | 미리보기의 언어 설정입니다. |
-| Open in Script Writer | [Script Writer](../editor-window/script-writer-window.md)에서 편집합니다. |
+| Open in Script Writer | [Script Writer Window](../editor-window/script-writer-window.md)에서 편집합니다. |
 | Created From | 생성 출처입니다. |
 | Last Updated | 마지막 업데이트 날짜 입니다. |
 | Keys For Primary Language | 기본 언어의 내용을 key 값으로 사용합니다. |
@@ -23,10 +23,10 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 
 | Key Content Pair Edit |  |
 | :--- | :--- |
-| Edit | 지정된 [Key Content Pair](localized-dictionary/key-content-pair.md) 에디터를 엽니다. |
-| Delete | 지정된 [Key Content Pair](localized-dictionary/key-content-pair.md)를 제거합니다. |
-| Create New Pair | 새 [Key Content Pair](localized-dictionary/key-content-pair.md)를 추가합니다. |
-| Import As New Pair | csv, tsv, 구글 스프레드 시트로부터 새 [Key Content Pair](localized-dictionary/key-content-pair.md)를 추가합니다. |
+| Edit | 지정된 [KeyContentPair](localized-dictionary/key-content-pair.md) 에디터를 엽니다. |
+| Delete | 지정된 [KeyContentPair](localized-dictionary/key-content-pair.md)를 제거합니다. |
+| Create New Pair | 새 [KeyContentPair](localized-dictionary/key-content-pair.md)를 추가합니다. |
+| Import As New Pair | csv, tsv, 구글 스프레드 시트로부터 새 [KeyContentPair](localized-dictionary/key-content-pair.md)를 추가합니다. |
 
 ## Key Content Pair 에디터
 
@@ -61,13 +61,13 @@ description: LString 모음집 모음집의 효율적인 사용 수단
       <td style="text-align:left">Cell Height</td>
       <td style="text-align:left">
         <p>&#xC140;&#xC758; &#xB192;&#xC774;&#xB97C; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>Allow Multiple Line &#xC774; true &#xC77C; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC;
+        <p>AllowMultipleLine &#xC774; true &#xC77C; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC;
           &#xAC00;&#xB2A5;&#xD569;&#xB2C8;&#xB2E4;.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Pair Name</td>
-      <td style="text-align:left"><a href="localized-dictionary/key-content-pair.md">Key Content Pair</a>&#xC758;
+      <td style="text-align:left"><a href="localized-dictionary/key-content-pair.md">KeyContentPair</a>&#xC758;
         &#xC774;&#xB984;&#xC785;&#xB2C8;&#xB2E4;.</td>
     </tr>
   </tbody>
@@ -81,6 +81,10 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 | Sort Keys by Descending | Key 값을 기준으로 내림차순 정렬합니다. |
 | Import | csv, tsv, 구글 스프레드 시트로부터 항목들을 추가합니다. |
 | Export | 현재 항목들을 csv 또는 tsv 파일로 추출합니다. |
+
+{% hint style="info" %}
+Keys For Primary Language가 활성화되면 첫 번째 언어의 영역이 비활성화 되고 해당 텍스트는 key 값으로 고정됩니다.
+{% endhint %}
 
 {% hint style="info" %}
 Allow Multiple Line 에 따라 에디터의 텍스트 영역의 종류가 달라집니다. false일 경우 텍스트 필드이며 탭을 통해 다음 컨트롤로 포커싱을 옮길 수 있습니다. true일 경우 텍스트 영역이며 \t 와 \n의 입력이 가능해집니다.
@@ -113,7 +117,7 @@ Allow Multiple Line 에 따라 에디터의 텍스트 영역의 종류가 달라
 
 ## 레퍼런스
 
-{% code title="" %}
+{% code title="LocalizedDictionaryObject.cs" %}
 ```csharp
 public class LocalizedDictionaryObject : ScriptableObject {
     public KeyContentPair this[int index] { get; }

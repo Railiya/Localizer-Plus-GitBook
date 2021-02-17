@@ -46,7 +46,8 @@
 
 ## Tag Parameter
 
-* [Tag Manager](tag-parameter/tag-manager.md)
+* [Tag Manager](tag-parameter/tag-manager/README.md)
+  * [Tag Collection](tag-parameter/tag-manager/tag-collection.md)
 * [Tag Parameter List](tag-parameter/tag-parameter-list/README.md)
   * [Tag Parameter](tag-parameter/tag-parameter-list/tag-parameter.md)
 * [Tag Parameter Collection](tag-parameter/tag-parameter-collection.md)
