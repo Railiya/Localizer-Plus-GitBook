@@ -50,7 +50,8 @@
   * [Tag Collection](tag-parameter/tag-manager/tag-collection.md)
 * [Tag Parameter List](tag-parameter/tag-parameter-list/README.md)
   * [Tag Parameter](tag-parameter/tag-parameter-list/tag-parameter.md)
-* [Tag Parameter Collection](tag-parameter/tag-parameter-collection.md)
+* [Tag Parameter Collection](tag-parameter/tag-parameter-collection/README.md)
+  * [Parameter Data](tag-parameter/tag-parameter-collection/parameter-data.md)
 
 ## LValue
 
