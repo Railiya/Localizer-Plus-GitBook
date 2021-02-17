@@ -6,6 +6,8 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 
 **Localized Dictionary**를 에디터상에서 편집하여 사용할 수 있는 스크립터블 오브젝트입니다. 테이블 형식으로 편집할 수 있으며 csv, tsv, 구글 스프레드 시트로부터 파싱하여 사용할 수 있습니다.
 
+**Localized Dictionary**는 프로젝트 우 클릭 - Create - Localizer Plus - Localized Dictionary를 통해 생성하거나 **Script Writer Window**에서 추출할 수 있습니다.
+
 ## 스크립터블 오브젝트
 
 ![Cube Collector &#xC608;&#xC81C;&#xC758; &#xC608;&#xC2DC; ](../.gitbook/assets/localized_dictionary_object_inspector.png)
