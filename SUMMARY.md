@@ -8,7 +8,6 @@
 
 * [언어 설정](language-settings.md)
 * [예제 게임](example-game.md)
-* [문제 해결](troubleshooting.md)
 
 ## Localizer Components
 
@@ -56,7 +55,7 @@
 ## LValue
 
 * [LValue&lt;T&gt;](lvalue/lvalue-type.md)
-* [커스텀 타입 추가](lvalue/add-custtom-type.md)
+* [커스텀 형식 추가](lvalue/add-custom-type.md)
 
 ## Script
 
