@@ -48,15 +48,17 @@ public class TagParameter {
 | Type | 보유중인 값의 형식입니다. |
 | TagReference | 텍스트에서 사용되는 TagParameter의 참조 형식입니다. |
 | IsArray | 배열의 여부입니다. |
-| ArrayCapacity | 배열의 버퍼 크기입니다. 최대 크기는 Tag Manager의 MaximumTagParameterArraySize 입니다. |
+| ArrayCapacity | 배열의 버퍼 크기입니다. 최대 크기는 [TagManager](../tag-manager/)의 MaximumTagParameterArraySize 입니다. |
 | ArraySize | 배열의 크기입니다. 배열이 아닐 경우 -1을 반환합니다. |
 | Int | int 값을 가져오거나 설정합니다. |
 | Float | float 값을 가져오거나 설정합니다. |
 | Bool | bool 값을 가져오거나 설정합니다. |
 | String | 파라미터 형식과 상관없이 string 값을 가져오거나 설정합니다. |
-| LString | LString 값을 가져오거나 설정합니다. |
+| LString | [LString](../../lvalue/lvalue-type.md) 값을 가져오거나 설정합니다. |
 
 {% hint style="info" %}
-배열 형식의 Tag Parameter는 값을 가지지 않습니다. 인덱서를 통해 값을 가진 하위 Tag Parameter를 가져올 수 있습니다.
+배열 형식의 **Tag Parameter**는 값을 가지지 않습니다. 인덱서를 통해 값을 가진 하위 **Tag Parameter**를 가져올 수 있습니다.
+
+배열의 크기를 초과한 인덱스가 호출되거나 설정 할 경우 자동적으로 버퍼의 크기가 확장됩니다. 다만 이 크기는 **Tag Manager**의 MaximumTagParameterArraySize 를 초과하지 않습니다.
 {% endhint %}
 
