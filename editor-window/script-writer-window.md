@@ -14,6 +14,10 @@ description: Script를 만들기 위해 거치는 최고의 선택
 
 **Script Writer Node Collection** 파일을 저장하거나 엽니다. 또는 Swnc 파일을 임포트하여 병합하거나 **Localized Dictionary**, csv, tsv를 Directory로 임포트할 수 있습니다. **Script, Compressed Script, Localized Dictionary**로 파일을 추출할 수 있습니다.
 
+{% hint style="info" %}
+**Script** 및 **Compressed Script** 추출은 현재 선택된 편집 언어의 내용만을 추출합니다. 언어와 Swnc 파일 수가 많아질 수록 작업이 불편할 수 있으니 파일 추출은 **Swnc Exporter** 스크립터블 오브젝트를 사용하는 것을 추천합니다.
+{% endhint %}
+
 ### Indexing
 
 컨텐츠가 추가될 때 자동적으로 주어지는 id 형식입니다. Area는 인덱스가 결정되는 **Directory** 범위 입니다. Format은 id의 형식입니다. {index}에 인덱스, {id}이 현재 **Directory** 이름이 들어갑니다. Length는 인덱스의 최소 길이 입니다.
