@@ -15,7 +15,7 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 | Editor Only |  |
 | :--- | :--- |
 | Language Selector | 미리보기의 언어 설정입니다. |
-| Open in Script Writer | [Script Writer Window](../editor-window/script-writer-window.md)에서 편집합니다. |
+| Open in Script Writer | [Script Writer Window](../editor-window/script-writer-window/)에서 편집합니다. |
 | Created From | 생성 출처입니다. |
 | Last Updated | 마지막 업데이트 날짜 입니다. |
 | Keys For Primary Language | 기본 언어의 내용을 key 값으로 사용합니다. |

@@ -59,14 +59,16 @@
 
 ## Script
 
-* [파일 정의](script/file-definition.md)
-* [Swnc Exporter](script/swnc-exporter.md)
+* [Script Reader](script/script-reader.md)
+* [Script](script/script/README.md)
+  * [Directory](script/script/directory.md)
 
 ## Editor Window
 
 * [Localizer Manager Window](editor-window/localizer-manager-window.md)
 * [Localizer Viewer Window](editor-window/localizer-viewer-window.md)
-* [Script Writer Window](editor-window/script-writer-window.md)
+* [Script Writer Window](editor-window/script-writer-window/README.md)
+  * [Swnc Exporter](editor-window/script-writer-window/swnc-exporter.md)
 
 ## 개발자 노트 <a id="development-note"></a>
 
