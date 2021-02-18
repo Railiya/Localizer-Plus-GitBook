@@ -8,7 +8,7 @@ description: Localizer Component를 다루기 위한 최고의 선택
 
 ![Cube Collector &#xC608;&#xC81C; &#xC52C;&#xC758; Localizer &#xBAA9;&#xB85D;](../.gitbook/assets/localizer_manager_window.png)
 
-## Localizer Object 리스트
+## Localizer Object 목록
 
 **Localizer Object** 컴포넌트를 가진 게임 오브젝트 목록 입니다. **Tag Formatter**는 포함되지 않습니다. 목록에서 오브젝트를 선택하면 하이어라키에서도 오브젝트가 선택됩니다. 반대로 하이어라키에서 오브젝트를 선택하면 리스트에서도 선택됩니다. 
 
@@ -32,7 +32,7 @@ description: Localizer Component를 다루기 위한 최고의 선택
 | Add Localizer to All Scene Texts | 씬의 모든 Text, TextMesh, TMP Text에 컴포넌트를 추가합니다. |
 
 {% hint style="info" %}
-Language 설정 후 Update all Localizers 버튼을 누르면 씬의 모든 Localizer 컴포넌트들의 언어가 변경됩니다. 이는 에디터의 미리보기 작업을 위한 것이며 실제로 사용할 때는 기본 언어로 다시 돌려주어야 합니다.
+Language 설정 후 Update all Localizers 버튼을 누르면 씬의 모든 Localizer 컴포넌트들의 언어가 변경됩니다. 이는 에디터의 미리보기 작업을 위한 것이며 실제로 사용할 때는 기본 언어로 다시 돌려주어야 합니다. \(참고 : 현재 씬에만 적용됩니다.\)
 
 언어 설정이 변경되고 스크립트가 다시 컴파일되면 Localizer 컴포넌트들의 언어 설정들도 같이 변경됩니다. 정상적으로 처리되지 않았을 경우 Update Language of Scene Localizer 버튼을 클릭하여 업데이트 할 수 있습니다.
 {% endhint %}
