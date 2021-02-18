@@ -6,6 +6,8 @@ description: 미리 만들어 쓰는 Tag Parameter 모음집
 
 **Tag Parameter**를 정의하는 **Parameter Data**를 가지는 컬렉션 스크립터블 오브젝트 입니다. 이는 에디터 단계에서 미리 **Tag Parameter**들을 정의하고 런타임에서 **Tag Parameter List**를 로드하여 **Tag Manager**에 등록하고 본 에셋의 메모리를 해제하는 방식으로 사용됩니다.
 
+**Tag Parameter Collection**은 프로젝트 우 클릭 - Create - Localizer Plus - Tag Parameter Collection을 통해 생성할 수 있습니다.
+
 ## 스크립터블 오브젝트
 
 ![Cube Collector &#xC608;&#xC81C;&#xC758; &#xC608;&#xC2DC; \(unused&#xB294; &#xC608;&#xC81C;&#xC5D0; &#xC5C6;&#xC74C;\)](../../.gitbook/assets/tag_parameter_collection_inspector.png)
