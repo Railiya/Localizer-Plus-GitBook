@@ -1,8 +1,8 @@
 ---
-description: 누군가에게는 에셋의 핵심의 핵심
+description: Core of core of asset for someone
 ---
 
-# TagFormatter
+# Tag Formatter
 
 **Text Localizer Object**, UGUI Text, TextMesh, TextMeshPro, TextMeshProUGUI에 사용되는 텍스트 내의 태그를 특정 문자열로 대체하는 컴포넌트입니다.
 

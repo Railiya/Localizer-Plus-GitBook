@@ -1,5 +1,5 @@
 ---
-description: LString 모음집
+description: LString collection
 ---
 
 # Key Content Pair

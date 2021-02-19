@@ -1,5 +1,5 @@
 ---
-description: Localizer Component를 다루기 위한 최고의 선택
+description: Best choice to manage Localizer Component
 ---
 
 # Localizer Manager Window

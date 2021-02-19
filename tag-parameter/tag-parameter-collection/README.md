@@ -1,5 +1,5 @@
 ---
-description: 미리 만들어 쓰는 Tag Parameter 모음집
+description: Pre-made to use Tag Parameter collection
 ---
 
 # Tag Parameter Collection

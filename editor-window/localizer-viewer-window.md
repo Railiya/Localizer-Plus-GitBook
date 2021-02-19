@@ -1,5 +1,5 @@
 ---
-description: Localizer Object와 에셋들을 찾기 위한 최고의 선택
+description: Best choice to find Localizer Object and assets
 ---
 
 # Localizer Viewer Window

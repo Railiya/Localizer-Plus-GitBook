@@ -1,5 +1,5 @@
 ---
-description: 에셋의 핵심의 핵심
+description: Core of core of asset
 ---
 
 # Localizer Object

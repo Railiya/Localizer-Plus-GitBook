@@ -1,5 +1,5 @@
 ---
-description: swnc 파일을 사용하기 위한 최선의 방법
+description: Best way to use swnc files
 ---
 
 # Swnc Exporter

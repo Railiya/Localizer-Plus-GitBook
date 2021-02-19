@@ -1,5 +1,5 @@
 ---
-description: 언어별 제네릭 형식 값 클래스
+description: Generic type value class in each language
 ---
 
 # LValue&lt;T&gt;

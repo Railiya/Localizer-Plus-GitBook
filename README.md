@@ -1,5 +1,5 @@
 ---
-description: About Asset
+description: About asset
 ---
 
 # Localizer Plus Documentation

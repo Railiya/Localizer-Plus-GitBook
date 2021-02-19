@@ -1,5 +1,5 @@
 ---
-description: Tag Parameter 모음집 모음집 스토어
+description: Tag Parameter collection collection store
 ---
 
 # Tag Manager

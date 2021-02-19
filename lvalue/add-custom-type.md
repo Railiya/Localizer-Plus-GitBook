@@ -1,5 +1,5 @@
 ---
-description: 나만의 시리얼라이징 LValue<T>
+description: My own serialized LValue<T>
 ---
 
 # Add Custom Type

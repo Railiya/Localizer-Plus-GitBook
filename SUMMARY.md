@@ -35,7 +35,7 @@
   * [TMP Style Localizer](localizer-components/localizer-object/tmp-style-localizer/README.md)
     * [Spacing Option](localizer-components/localizer-object/tmp-style-localizer/spacing-option.md)
     * [Style Data](localizer-components/localizer-object/tmp-style-localizer/style-data.md)
-* [TagFormatter](localizer-components/tag-formatter.md)
+* [Tag Formatter](localizer-components/tag-formatter.md)
 
 ## Localized Dictionary
 

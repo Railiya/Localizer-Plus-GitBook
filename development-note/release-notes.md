@@ -1,5 +1,5 @@
 ---
-description: 무엇이 변경 되었나
+description: What has been changed
 ---
 
 # Release Notes

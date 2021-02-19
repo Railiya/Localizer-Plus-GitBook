@@ -1,5 +1,5 @@
 ---
-description: LString 모음집 모음집의 효율적인 사용 수단
+description: Efficient use way to LString collection collection
 ---
 
 # Localized Dictionary Object

@@ -1,5 +1,5 @@
 ---
-description: Script를 만들기 위해 거치는 최고의 선택
+description: Best choice to create Script file
 ---
 
 # Script Writer Window

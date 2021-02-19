@@ -1,5 +1,5 @@
 ---
-description: 로드된 스크립트 클래스
+description: Loaded script class
 ---
 
 # Script

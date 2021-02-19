@@ -1,5 +1,5 @@
 ---
-description: 스크립트 파일 로드 클래스
+description: Script file load class
 ---
 
 # Script Reader

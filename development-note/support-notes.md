@@ -1,5 +1,5 @@
 ---
-description: 향후 개발 예정에 있거나 고민중인 사항들
+description: Planned or considered matters in future
 ---
 
 # Support Notes
