@@ -2,19 +2,19 @@
 description: 에셋에 관하여
 ---
 
-# Localizer Plus Document
+# Localizer Plus Documentation
 
 > 반갑소 세상아!
 >
 > Hello World!
 
-여러분들이 만들어나가는 창의적인 유니티 게임에 다양한 언어를 도입하여 온 세상을 향해 진출하고 하는 강인한 의지가 여러분들을 이 곳으로 이끌었습니다!
+Your strong will to advance to the world by introducing a variety of languages into the creative Unity games you creating has led you here!
 
-텍스트 량이 적은 간단한 게임부터 텍스트 량이 많은 게임까지 프로젝트의 규모에 맞추어 가장 적절한 로컬라이징 방법들을 이 에셋에서 찾아볼 수 있습니다.
+From simple games with less text to games with more text, you can find the proper localization methods for your project size in this asset.
 
 
 
-> ## Q. 대단해요! 이제 뭘 하면 되죠?
+> ## Q. Great! Now what should I do?
 
 시작하기에 앞서 좌측에 보이는 목차에서 _"언 설정"_ 을 먼저 읽어주세요. 예제를 보고 싶다면 패키지에 동봉되어 있는 Example - Demo 씬을 직접 플레이 해보거나 목차에서 _"예제 게임"_ 을 읽으셔도 좋습니다.
 

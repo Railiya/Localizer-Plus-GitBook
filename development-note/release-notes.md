@@ -2,7 +2,7 @@
 description: 무엇이 변경 되었나
 ---
 
-# 릴리스 노트
+# Release Notes
 
 ## 2021-03-01 \(v1.0\)
 

@@ -2,7 +2,7 @@
 description: 나만의 시리얼라이징 LValue<T>
 ---
 
-# 커스텀 형식 추가
+# Add Custom Type
 
 미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스가 아닌 새 형식을 사용하는 방법입니다. 
 

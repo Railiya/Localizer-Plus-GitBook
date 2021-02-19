@@ -2,7 +2,7 @@
 description: 시작하기 전에 갖추어야할 필수 덕목
 ---
 
-# 언어 설정
+# Language Settings
 
 로컬라이징을 하기 위해서는 시작 전에 어떠한 언어를 지원해 줄지를 정해야 합니다. 이 에셋어서는 언어 설정을 **LocalizerProjectSettings** 스크립터블 오브젝트에서 정의할 수 있습니다. **LocalizerProjectSettings**는 패키지가 임포트될 때 _LocalizerPlus_ 폴더에 기본적으로 포함되어있습니다.
 

@@ -2,7 +2,7 @@
 description: 향후 개발 예정에 있거나 고민중인 사항들
 ---
 
-# 지원 예정
+# Support Notes
 
 ## 추후 개발 예정 사항
 

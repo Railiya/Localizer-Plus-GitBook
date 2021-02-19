@@ -2,7 +2,7 @@
 description: 예제 게임으로 알아보는 기본 기능들
 ---
 
-# 예제 게임
+# Example Games
 
 본 에셋에는 두 가지의 예제 게임이 포함되어 있습니다. 패키지를 임포트하면 LocalizerPlus - Example 폴더에서 원하는 예제 게임의 폴더로 들어가 Demo.scene을 열어 게임을 플레이 해볼 수 있습니다.
 
