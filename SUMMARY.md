@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Localizer Plus Document](README.md)
+* [Localizer Plus 문서](README.md)
 
 ## 이제 시작 해볼까 합니다 <a id="getting-started"></a>
 
