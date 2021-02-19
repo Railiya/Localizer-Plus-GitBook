@@ -18,11 +18,11 @@ description: 예제 게임으로 알아보는 기본 기능들
 
 이 예제에서는 **Text Localizer, Tag Formatter, Text Style Localizer, Localized Dictionary**, **LString**, **Tag Parameter**의 단편적인 사용 예시를 볼 수 있습니다.
 
-&lt;yotube link&gt;
+&lt;yotube link 준비 중&gt;
 
 ## Capsule Story
 
 이 예제에서는 **Text Localizer, Compressed Script, SwncExporter**의 사용 예시를 볼 수 있습니다.
 
-&lt;youtube link&gt;
+&lt;youtube link 준비 중&gt;
 

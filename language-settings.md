@@ -20,10 +20,10 @@ description: 시작하기 전에 갖추어야할 필수 덕목
 
 ![](.gitbook/assets/language_settings_projectsettings.png)
 
-실수를 방지하는 차원에서 기본적으로 언어 설정은 비활성화되어 있습니다. **Enable Edit** 버튼을 눌러 언어 설정을 활성화하고 Add New 혹은 Remove Last 등 언어를 추가, 제거하는 작업을 거친 뒤 **Apply Languages** 버튼을 누르면 언어를 변경할 수 있습니다.
+실수를 방지하는 차원에서 기본적으로 언어 설정은 비활성화되어 있습니다. Enable Edit 버튼을 눌러 언어 설정을 활성화하고 Add New 혹은 Remove Last 등 언어를 추가, 제거하는 작업을 거친 뒤 Apply Languages 버튼을 누르면 언어를 변경할 수 있습니다. 해당 작업은 모든 씬의 Localizer 컴포넌트와 관련 에셋들을 갱신하기 때문에 다소 시간이 소요될 수 있습니다.
 
 {% hint style="info" %}
-언어의 변경은 Runtime 스크립트 파일에 있는 **Languages.cs** 스크립트의 내용을 수정하고 재컴파일 하는 과정을 거칩니다. 만약 스크립트를 직접 수정한 경우 프로젝트 세팅에서 기존 내용을 복구할 것인지 현재 언어 설정을 사용할 것인지에 대한 선택이 주어집니다. 이런 식으로 언어를 직접 수정하게 되면 컴포넌트들의 언어 설정이 업데이트가 되지 않습니다. 이 경우에는 **LocalizerManager** 에디터 윈도우에서 **"Update All Localizer"** 버튼을 눌러 직접 업데이트 해주어야 합니다.
+언어의 변경은 Runtime 스크립트 파일에 있는 **Languages.cs** 스크립트의 내용을 수정하고 재컴파일 하는 과정을 거칩니다. 만약 스크립트를 직접 수정한 경우 프로젝트 세팅에서 기존 내용을 복구할 것인지 현재 언어 설정을 사용할 것인지에 대한 선택이 주어집니다. 이런 식으로 언어를 직접 수정하게 되면 컴포넌트들의 언어 설정이 업데이트가 되지 않습니다. 이 경우에는 **Localizer Manager** 에디터 윈도우에서 "Update Project Language Settings" 버튼을 눌러 직접 업데이트 해주어야 합니다.
 {% endhint %}
 
 {% hint style="warning" %}

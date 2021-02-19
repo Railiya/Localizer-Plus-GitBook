@@ -10,6 +10,10 @@ description: 에셋의 핵심의 핵심
 
 일부 컴포넌트는 필수 컴포넌트 형식에 따라 상위 컴포넌트를 상속받은 형태로 구현되어 있습니다. 예를 들어 **Text Localizer, Text Mesh Localizer, TMP Text Localizer** 들은 **Text Localizer Object**를 상속받고 있습니다. 이는 RequireComponent 특성을 사용하기 위함이며 **Style Localizer** 들은 여러 컴포넌트를 대상으로 사용되기 때문에 이러한 특성 없이 운용됩니다.
 
+{% hint style="info" %}
+언어 설정이 비정상적으로 진행되어 **Localizer Object**의 언어 갱신이 진행되지 않은 경우 인스펙터 상에서 언어의 수가 일치하지 않는다는 경고 메시지가 표시됩니다. 이 때는 **Localizer Manager** 에디터 윈도우에서 "Update Project Language Settings" 버튼을 눌러 다시 갱신할 수 있습니다.
+{% endhint %}
+
 
 
 > ### Q. 컴포넌트를 어떻게 추가하죠?
