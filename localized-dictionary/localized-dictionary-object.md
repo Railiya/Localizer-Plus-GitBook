@@ -6,7 +6,7 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 
 **Localized Dictionary**를 에디터상에서 편집하여 사용할 수 있는 스크립터블 오브젝트입니다. 테이블 형식으로 편집할 수 있으며 csv, tsv, 구글 스프레드 시트로부터 파싱하여 사용할 수 있습니다.
 
-**Localized Dictionary**는 프로젝트 우 클릭 - Create - Localizer Plus - Localized Dictionary를 통해 생성하거나 **Script Writer Window**에서 추출할 수 있습니다.
+**Localized Dictionary**는 프로젝트 _우 클릭 - Create - Localizer Plus - Localized Dictionary_를 통해 생성하거나 **Script Writer Window**에서 추출할 수 있습니다.
 
 ## 스크립터블 오브젝트
 
@@ -32,46 +32,14 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 
 ![cubeCollect Key Content Pair &#xC5D0;&#xB514;&#xD130;](../.gitbook/assets/key_content_pair_editor.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Toolbar</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Edit</td>
-      <td style="text-align:left">&#xD3B8;&#xC9D1; &#xBA54;&#xB274;&#xB97C; &#xC5FD;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Apply</td>
-      <td style="text-align:left">&#xC218;&#xC815; &#xC0AC;&#xD56D;&#xC744; &#xC801;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Revert</td>
-      <td style="text-align:left">&#xB9C8;&#xC9C0;&#xB9C9; &#xC218;&#xC815; &#xC0AC;&#xD56D;&#xC73C;&#xB85C;
-        &#xB418;&#xB3CC;&#xB9BD;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cell Width</td>
-      <td style="text-align:left">&#xC140;&#xC758; &#xB108;&#xBE44;&#xB97C; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cell Height</td>
-      <td style="text-align:left">
-        <p>&#xC140;&#xC758; &#xB192;&#xC774;&#xB97C; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>AllowMultipleLine &#xC774; true &#xC77C; &#xACBD;&#xC6B0;&#xC5D0;&#xB9CC;
-          &#xAC00;&#xB2A5;&#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Pair Name</td>
-      <td style="text-align:left"><a href="localized-dictionary/key-content-pair.md">KeyContentPair</a>&#xC758;
-        &#xC774;&#xB984;&#xC785;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-  </tbody>
-</table>
+| Toolbar |  |
+| :--- | :--- |
+| Edit | 편집 메뉴를 엽니다. |
+| Apply | 수정 사항을 적용합니다. |
+| Revert | 마지막 수정 사항으로 되돌립니다. |
+| Cell Width | 셀의 너비를 설정합니다. |
+| Cell Height | 셀의 높이를 설정합니다. AllowMultipleLine 이 true 일 경우에만 가능합니다. |
+| Pair Name | [KeyContentPair](localized-dictionary/key-content-pair.md)의 이름입니다. |
 
 | Edit Menu |  |
 | :--- | :--- |
@@ -101,7 +69,7 @@ Allow Multiple Line 에 따라 에디터의 텍스트 영역의 종류가 달라
 | Import Method | 텍스트, 파일 또는 구글 스프레드 시트 임포트 방식입니다. |
 
 {% hint style="info" %}
-구글 스프레드 시트 임포트 방식에서 url를 입력하고 Convert를 사용하면 추출 형식의 url로 변환됩니다. url을 입력할 때 시트의 id \(gid\) 까지 주소를 전체 복사 후 입력한 뒤 Convert를 누르고 Import를 하면 편리하게 사용할 수 있습니다.
+구글 스프레드 시트 임포트 방식에서 url를 입력하고 "Convert" 버튼을 사용하면 추출 형식의 url로 변환됩니다. url을 입력할 때 시트의 id \(gid\) 까지 주소를 전체 복사 후 입력한 뒤 "Convert" 버튼을 누르고 Import를 하면 편리하게 사용할 수 있습니다.
 {% endhint %}
 
 ## Key Content Pair Exporter

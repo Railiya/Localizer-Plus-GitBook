@@ -19,7 +19,7 @@ description: 누군가에게는 에셋의 핵심의 핵심
 수정 가능한 항목이 없습니다.
 
 {% hint style="info" %}
-LText 혹은 Text 값이 변경되면 텍스트에 포함된 태그를 참조하여 내부에서 Tag Parameter들을 캐싱하게 됩니다. 이 때 Tag Parameter의 값이 변경되면 자동적으로 Refresh가 이루어집니다.
+LText 혹은 Text 값이 변경되면 텍스트에 포함된 태그를 참조하여 내부에서 **Tag Parameter**들을 캐싱하게 됩니다. 이 때 **Tag Parameter**의 값이 변경되면 자동적으로 Refresh가 이루어집니다.
 {% endhint %}
 
 ## 태그 작성 형식
@@ -32,7 +32,7 @@ LText 혹은 Text 값이 변경되면 텍스트에 포함된 태그를 참조하
 * 일반 형식 : {accessKey:parameterKey}
 * 배열 형식 : {accessKey:parameterKey\[index\]}
 
-태그 작성의 예로 quest 라는 엑세스 키를 가진 **Tag Parameter List**가 있으며, List 안에는 current 와 left 라는 키를 가진 **Tag Parameter**가 있다면 위 예시처럼 사용할 수 있습니다.
+태그 작성의 예로 "quest" 라는 엑세스 키를 가진 **Tag Parameter List**가 있으며, List 안에는 "current" 와 "left" 라는 키를 가진 **Tag Parameter**가 있다면 위 예시처럼 사용할 수 있습니다.
 
 ## 레퍼런스
 

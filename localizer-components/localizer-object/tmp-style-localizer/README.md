@@ -47,7 +47,7 @@ public class TMPStyleLocalizer : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LTMPStyleData | [TMPStyleLocalizer.StyleData](style-data.md) 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LTMPStyleData | [TMPStyleLocalizer.StyleData](style-data.md) 타입의 [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper 클래스입니다. |
 
 | Properties |  |
 | :--- | :--- |

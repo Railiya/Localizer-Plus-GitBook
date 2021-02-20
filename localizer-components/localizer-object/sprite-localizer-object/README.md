@@ -23,7 +23,7 @@ public SpriteLocalizerObject : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LSprite | Sprite 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LSprite | Sprite 타입의 [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper 클래스입니다. |
 
 | **Properties** |  |
 | :--- | :--- |

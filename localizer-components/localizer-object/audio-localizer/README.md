@@ -38,7 +38,7 @@ public class AudioLocalizer : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LClipData | [ClipData](clip-data.md) 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LClipData | [ClipData](clip-data.md) 타입의 [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper 클래스입니다. |
 
 | Properties |  |
 | :--- | :--- |
