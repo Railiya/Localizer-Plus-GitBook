@@ -4,19 +4,19 @@ description: 'base class : LocalizerObject'
 
 # TMP Style Localizer
 
-TextMeshPro, TextMeshProUGUI, TMP\_Dropdown 컴포넌트에 사용되는 Localizer Style 컴포넌트 입니다.
+The Localizer Style component used in TextMeshPro, TextMeshProUGUI, TMP\_Dropdown component.
 
-## 컴포넌트
+## Component
 
 ![](../../../.gitbook/assets/tmp_style_localizer_inspector.png)
 
 | Properties |  |
 | :--- | :--- |
-| OverrideFontAsset | 언어가 변경될 때 해당 언어에 지정된 폰트 에셋으로 변경합니다. 폰트 에셋이 지정되어 있지 않을 경우 기존의 폰트 에셋과 매트리얼 프리셋을 계속 사용합니다. 이 기능을 사용면 각 언어마다 Font Asset 및 Material Preset 설정이 표시됩니다. \(참고: Material Preset이 없다면 폰트 에셋의 메인 매트리얼 프리셋을 사용합니다.\) |
-| OverrideSpacingOptions | 언어가 변경될 때 해당 언어에 지정된 스페이싱 옵션들로 변경합니다. 이 기능을 사용면 각 언어마다 스페이싱 옵션들이 표시됩니다. |
-| LStyleData | 언어별 스타일을 지정합니다. 언어가 변경될 경우 컴포넌트의 폰트 에셋, 매트리얼 프리셋 및 스페이싱 옵션들이 변경된 언어의 스타일로 설정됩니다. |
+| OverrideFontAsset | It changes its font asset when language is changed. Use existing font asset and material preset if it's not set. It displays a Font Asset and Material Preset field in each language if it's enabled. \(Refer : If Material Preset is empty, It uses main material preset in font asset.\) |
+| OverrideSpacingOptions | It changes its spacing options when language is changed. It displays a spacing options field in each language if it's enabled. |
+| LStyleData | Edit style of each language. It change it's component font and line spacing when language is changed. |
 
-## 레퍼런스
+## Reference
 
 {% code title="TMPStyleLocalizer.cs" %}
 ```csharp
@@ -39,24 +39,56 @@ public class TMPStyleLocalizer : LocalizerObject {
 
 | Inner Struct |  |
 | :--- | :--- |
-| [SpacingOption](spacing-option.md) | Text Mesh Pro Text의 스페이싱 옵션들을 가집니다. |
+| [SpacingOption](spacing-option.md) | Getting spacing option values of Text Mesh Pro Text. |
 
 | Inner Class |  |
 | :--- | :--- |
-| [StyleData](style-data.md) | 폰트 에셋, 매트리얼 프리셋 및 스페이싱 옵션들의 정보를 가집니다. |
+| [StyleData](style-data.md) | Getting information of font asset, material preset and spacing options. |
 
 | Value Definition |  |
 | :--- | :--- |
-| LTMPStyleData | [TMPStyleLocalizer.StyleData](style-data.md) 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LTMPStyleData | [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper class of [TMPStyleLocalizer.StyleData](style-data.md) type. |
 
-| Properties |  |
-| :--- | :--- |
-| LStyleData | 컴포넌트의 언어별 [StyleData](style-data.md)를 가져오거나 변경합니다. |
-| OverrideFontAsset | 언어가 변경될 때 해당 언어에 지정된 폰트 에셋으로 변경합니다. 폰트 에셋이 지정되어 있지 않을 경우 기존의 폰트 에셋과 매트리얼 프리셋을 계속 사용합니다. \(참고: Material Preset이 없다면 폰트 에셋의 메인 매트리얼 프리셋을 사용합니다.\) |
-| OverrideSpacingOptions | 언어가 변경될 때 해당 언어에 지정된 스페이싱 옵션들로 변경합니다.  |
-| FontAsset | 컴포넌트의 font 값을 가져옵니다. |
-| FontSharedMaterial | 컴포넌트의 fontSharedMaterial 값을 가져옵니다. |
-| SpacingOptions | 컴포넌트의 각 스페이싱 옵션 값들을 [SpacingOption](spacing-option.md) 구조체로 가져옵니다. TMP\_Dropdown 에는 해당되지 않습니다. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Properties</th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">LStyleData</td>
+      <td style="text-align:left">Get or set each language <a href="style-data.md">StyleData</a> of the component.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OverrideFontAsset</td>
+      <td style="text-align:left">It changes its font asset when language is changed. Use existing font
+        asset and material preset if it&apos;s not set. (Refer : If Material Preset
+        is empty, It uses main material preset in font asset.)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OverrideSpacingOptions</td>
+      <td style="text-align:left">It changes its spacing options when language is changed.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FontAsset</td>
+      <td style="text-align:left">Get font value of component.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FontSharedMaterial</td>
+      <td style="text-align:left">Get fontSharedMaterial value of component.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SpacingOptions</td>
+      <td style="text-align:left">
+        <p>Get <a href="spacing-option.md">SpacingOption</a> struct from each spacing
+          option values of component.</p>
+        <p>It&apos;s not applied to TMP_Dropdown.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
   <thead>
@@ -69,10 +101,8 @@ public class TMPStyleLocalizer : LocalizerObject {
     <tr>
       <td style="text-align:left">SetComponent</td>
       <td style="text-align:left">
-        <p>Text Mesh Pro &#xAD00;&#xB828; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C;
-          &#xCC3E;&#xC544; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
+        <p>Fine and set related Text Mesh Pro component.</p>
+        <p>If it success, it&apos;s true and false it&apos;s not.</p>
       </td>
     </tr>
   </tbody>

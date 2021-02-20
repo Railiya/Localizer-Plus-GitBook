@@ -4,17 +4,17 @@ description: 'base class : LocalizerObject'
 
 # Audio Localizer
 
-AudioSource 컴포넌트에 사용되는 Localizer 컴포넌트 입니다.
+The Localizer component used in AudioSource component.
 
-## 컴포넌트
+## Component
 
 ![](../../../.gitbook/assets/audio_localizer_inspector.png)
 
 | Properties |  |
 | :--- | :--- |
-| LClipData | 언어별 오디오 클립 및 볼륨을 지정합니다. 언어가 변경될 경우 컴포넌트의 오디오 클립 및 볼륨이 변경된 언어의 것으로 설정됩니다. |
+| LClipData | Edit audio clip and volume of each language. It changes its component audio settings when language is changed. |
 
-## 레퍼런스
+## Reference
 
 {% code title="AudioLocalizer.cs" %}
 ```csharp
@@ -34,18 +34,18 @@ public class AudioLocalizer : LocalizerObject {
 
 | Inner Class |  |
 | :--- | :--- |
-| [ClipData](clip-data.md) | 오디오 클립 및 볼륨의 정보를 가집니다. |
+| [ClipData](clip-data.md) | Get information of audio clip and volume. |
 
 | Value Definition |  |
 | :--- | :--- |
-| LClipData | [ClipData](clip-data.md) 타입의 LValue&lt;T&gt; Wrapper 클래스입니다. |
+| LClipData | [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper class of [ClipData](clip-data.md) type. |
 
 | Properties |  |
 | :--- | :--- |
-| Component | AudioSource 컴포넌트를 가져옵니다. |
-| LClipData | 컴포넌트의 언어별 [ClipData](clip-data.md)를 가져오거나 변경합니다. |
-| Clip | 컴포넌트의 clip 값을 가져옵니다. |
-| Volume | 컴포넌트의 volume 값을 가져옵니다. |
+| Component | Get AudioSource component. |
+| LClipData | Get or set [ClipData](clip-data.md) each language of the component. |
+| Clip | Get clip value of component. |
+| Volume | Get volume value of component. |
 
 <table>
   <thead>
@@ -58,10 +58,8 @@ public class AudioLocalizer : LocalizerObject {
     <tr>
       <td style="text-align:left">SetComponent</td>
       <td style="text-align:left">
-        <p>AudioSource &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;
-          &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
+        <p>Fine and set AudioSource component.</p>
+        <p>If it success, it&apos;s true and false it&apos;s not.</p>
       </td>
     </tr>
   </tbody>

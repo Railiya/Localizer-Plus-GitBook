@@ -1,8 +1,8 @@
 # Localizer Option Data List
 
-**LocalizerOptionData**를 관리하는 클래스입니다. List&lt;Dropdown.OptionData&gt; 와 List&lt;TMP\_Dropdown.OptionData&gt; 로 상호간에 변환이 가능합니다.
+**Localizer Option Data** management class. It can convert into List&lt;Dropdown.OptionData&gt;, List&lt;TMP\_Dropdown.OptionData&gt; or vice versa.
 
-## 레퍼런스
+## Reference
 
 {% code title="LocalizerObject.cs" %}
 ```csharp
@@ -22,12 +22,12 @@ public static class LocalizerDropdownExtension {
 
 | **Properties** |  |
 | :--- | :--- |
-| Options | [LocalizerOptionData](localizer-option-data.md)를 가지는 리스트입니다. |
-| Count | 보유중인 [LocalizerOptionData](localizer-option-data.md)의 수를 가져옵니다. |
+| Options | A list contains [LocalizerOptionData](localizer-option-data.md). |
+| Count | Get number of  [LocalizerOptionData](localizer-option-data.md) has. |
 
 | Extension Functions |  |
 | :--- | :--- |
-| ToLocalizerOptions | LocalizerOptionDataList로 변환합니다. |
-| ToDropdownOptions | UGUI Dropdown의 List&lt;OptionData&gt; 로 변환합니다. |
-| ToTMPDropdownOptions | TMP Dropdown의 List&lt;OptionData&gt;로 변환합니다. |
+| ToLocalizerOptions | Convert to LocalizerOptionDataList. |
+| ToDropdownOptions | Convert to List&lt;OptionData&gt; in UGUI Dropdown. |
+| ToTMPDropdownOptions | Convert to List&lt;OptionData&gt; in TMP Dropdown. |
 
