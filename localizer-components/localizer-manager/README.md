@@ -4,7 +4,7 @@ description: Core of asset
 
 # Localizer Manager
 
-static class that change languages and manage **Localizer Object**.
+The static class that change languages and manage **Localizer Object**.
 
 To change the language of **Localizer Object**, you have to call **SetLanguage** in **Localizer Manager**. If you want to get language information, you can get it from **SelectedLanguage** or **SelectedLanguageIndex**. If you need the event language changed, use **OnLanguageChganed**.
 

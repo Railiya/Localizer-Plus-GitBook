@@ -4,13 +4,13 @@ description: Tag Parameter collection collection store
 
 # Tag Manager
 
-**Tag Parameter List**를 관리하는 정적 클래스입니다. Tags에 등록된 **Tag Parameter List** 들을 통해 **Tag Formatter** 에서 **Tag Parameter**를 참조합니다. 등록되지 않은 경우 사용할 수 없습니다.
+The static class that manage **Tag Parameter List**. **Tag Formatter** can refer to **Tag Parameter** by registered **Tag Parameter List** in Tags. It can't be used if it's not registered.
 
 {% hint style="info" %}
-**Tag Parameter List** 들은 저 마다 엑세스 키를 가지고 있으며 엑세스 키를 통해 Tags 에서 **Tag Parameter List**를 가져옵니다. 사용이 끝난 **Tag Parameter List** 들은 Tags 에서 제거하여 메모리를 아낄 수 있습니다.
+Every **Tag Parameter Lists** are has access key and can get **Tag Parameter** from Tags by key. You can remove **Tag Parameter** List from Tags to release the memory.
 {% endhint %}
 
-## 레퍼런스
+## Reference
 
 {% code title="TagManager.cs" %}
 ```csharp
@@ -25,12 +25,12 @@ public static class TagManager {
 
 | Inner Class |  |
 | :--- | :--- |
-| [TagCollection](tag-collection.md) | [TagParameterList](../tag-parameter-list/) 컬렉션 입니다. |
+| [TagCollection](tag-collection.md) | [TagParameterList](../tag-parameter-list/) collection. |
 
 | Static Properties |  |
 | :--- | :--- |
-| Tags | [TagCollection](tag-collection.md) 입니다. |
-| MaximumTagParameterArraySize | [TagParameter](../tag-parameter-list/tag-parameter.md)의 최대 배열 크기 입니다. |
+| Tags | This is [TagCollection](tag-collection.md). |
+| MaximumTagParameterArraySize | Maximum array size of [TagParameter](../tag-parameter-list/tag-parameter.md). |
 
 
 
