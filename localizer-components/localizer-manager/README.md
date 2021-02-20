@@ -63,7 +63,7 @@ public static class LocalizerManager {
     <tr>
       <td style="text-align:left">RemoveNullObjects</td>
       <td style="text-align:left">
-        <p>Object &#xB9AC;&#xC2A4;&#xC5D0;&#xC11C; null&#xC778; <a href="../localizer-object/">LocalizerObject</a>&#xB97C;
+        <p>object &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; null&#xC778; <a href="../localizer-object/">LocalizerObject</a>&#xB97C;
           &#xC81C;&#xAC70;&#xD569;&#xB2C8;&#xB2E4;.</p>
         <p>(&#xCC38;&#xACE0;: OnDestroy&#xC5D0;&#xC11C; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C;
           &#xC81C;&#xAC70;&#xB429;&#xB2C8;&#xB2E4;.)</p>
@@ -72,7 +72,7 @@ public static class LocalizerManager {
     <tr>
       <td style="text-align:left">GetLocalizersOfType</td>
       <td style="text-align:left">&#xD574;&#xB2F9; <a href="../localizer-object/">LocalizerObject </a>&#xD0C0;&#xC785;&#xC758;
-        Object&#xB4E4;&#xC744; &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</td>
+        object&#xB4E4;&#xC744; &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</td>
     </tr>
     <tr>
       <td style="text-align:left">IndexOfLanguage</td>
