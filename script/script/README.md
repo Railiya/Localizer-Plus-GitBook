@@ -6,7 +6,7 @@ description: 로드된 스크립트 클래스
 
 **Script Reader**로 부터 scrt 혹은 cscrt 파일을 로드하여 사용하는 클래스 입니다.
 
-**Script**는 백그라운 **Directory**를 의미합니다. Root를 통해 백그라운드 **Directory**를 가져올 수 있으며 SubDirectories를 통해 최상단 **Directory**들을 가져올 수 있습니다.
+**Script**는 백그라운드 **Directory**를 의미합니다. Root를 통해 백그라운드 **Directory**를 가져올 수 있으며 SubDirectories를 통해 최상단 **Directory**들을 가져올 수 있습니다.
 
 ## 레퍼런스
 
