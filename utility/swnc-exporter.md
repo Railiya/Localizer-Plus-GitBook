@@ -10,7 +10,7 @@ description: Best way to use swnc files
 
 ![Capsule Story &#xC608;&#xC81C;&#xC758; swnc &#xD30C;&#xC77C;](../.gitbook/assets/swnc_exporter_inspector.png)
 
-## 파일 정보
+## File Information
 
 swnc 파일과 추출될 때의 이름을 지정할 수 있습니다. 하단의 Add 버튼을 눌러 항목을 추가할 수 있으며 Label을 우 클릭하여 해당 요소를 Script Writer로 열거나 제거할 수 있습니다.
 
@@ -20,7 +20,7 @@ swnc 파일과 추출될 때의 이름을 지정할 수 있습니다. 하단의 
 | Export Name | 추출될 때의 폴더 혹은 파일의 이름입니다. |
 | Last Update | swnc 파일의 최종 수정일 입니다. |
 
-## 추출 세팅
+## Export Settings
 
 추출에 필요한 세팅입니다. 추출 대상 폴더, 추출 형식 및 확장자, 이름 형식을 지정합니다. 확장자는 추출 형식에 따라 변경됩니다.
 

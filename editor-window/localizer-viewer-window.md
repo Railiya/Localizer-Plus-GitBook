@@ -8,7 +8,7 @@ description: Best choice to find Localizer Object and assets
 
 ![Cube Collector &#xC608;&#xC81C; &#xC52C;&#xC758; Localizer &#xBAA9;&#xB85D;](../.gitbook/assets/localizer_viewer_window.png)
 
-## Localizer Object 목록
+## Localizer Object List
 
 **Localizer Object** 컴포넌트를 가진 게임 오브젝트 목록 입니다. **Tag Formatter**는 포함되지 않습니다. 목록에서 오브젝트를 선택하면 하이어라키에서도 오브젝트가 선택됩니다. 반대로 하이어라키에서 오브젝트를 선택하면 리스트에서도 선택됩니다. 
 
