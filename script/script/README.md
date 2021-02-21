@@ -4,11 +4,11 @@ description: Loaded script class
 
 # Script
 
-**Script Reader**로 부터 scrt 혹은 cscrt 파일을 로드하여 사용하는 클래스 입니다.
+The class that loaded from scrt or cscrt by **Script Reader**.
 
-**Script**는 백그라운 **Directory**를 의미합니다. Root를 통해 백그라운드 **Directory**를 가져올 수 있으며 SubDirectories를 통해 최상단 **Directory**들을 가져올 수 있습니다.
+**Script** is mean background **Directory**. You can get background **Directory** via Root and get top **Directories** via SubDirectories.
 
-## 레퍼런스
+## Reference
 
 {% code title="ScriptReader.cs" %}
 ```csharp
@@ -28,25 +28,25 @@ public class Script {
 
 | Indexer |  |
 | :--- | :--- |
-| this | 경로로부터 [Directory](directory.md)를 가져옵니다. |
+| this | Get [Directory](directory.md) by path. |
 
 | Properties |  |
 | :--- | :--- |
-| Root | 백그라운드 [Directory](directory.md)를 가져옵니다. |
-| DirectoryCount | 최상단 [Directory](directory.md)의 수를 가져옵니다. |
-| SubDirectories | 최상단 [Directory](directory.md)들을 가져옵니다. |
+| Root | Get background [Directory](directory.md). |
+| DirectoryCount | Get number of top [Directories](directory.md). |
+| SubDirectories | Get top [Directories](directory.md). |
 
 | Functions |  |
 | :--- | :--- |
-| GetSubDirectory | 이름으로부터 하위 [Directory](directory.md)를 가져옵니다. |
-| HasSubDirectory | 해당하는 이름의 [Directory](directory.md) 존재 여부를 가져옵니다. |
-| Clear | Script를 초기화합니다. |
+| GetSubDirectory | Get sub [Directory](directory.md) from name. |
+| HasSubDirectory | Get existence of [Directory](directory.md) from name. |
+| Clear | Clear Script. |
 
-## Script로 부터 컨텐츠 가져오기
+## Get content from Script
 
-**Script**의 인덱서는 경로로부터 **Directory**를 반환합니다. 반환 받은 **Directory**로 부터 컨텐츠를 가져오거나 Root로 접근하여 컨텐츠를 가져올 수 있습니다.
+The indexer of **Script** is return **Directory** from path. You can get content by returned **Directory** or access to Root.
 
-예시는 "First/Second/script001" 경로의 컨텐츠를 가져오는 예시입니다.
+The example is to get content from path "First/Second/script001".
 
 ```csharp
 private Script script;
@@ -58,6 +58,6 @@ private void Start () {
 ```
 
 {% hint style="info" %}
-경로의 **Directory**가 많을 수록 가져오는 시간이 조금씩 길어집니다. 자주 사용되는 경우에는 **Directory**를 캐싱한 후에 **Directory**로 부터 컨텐츠를 가져오는 방식을 추천합니다.
+More **Directory** in path, it spends a little more time to get content. Recommend getting content from cached **Directory** using frequently.
 {% endhint %}
 
