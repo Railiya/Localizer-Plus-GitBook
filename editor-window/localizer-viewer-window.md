@@ -14,11 +14,11 @@ description: Localizer Object와 에셋들을 찾기 위한 최고의 선택
 
 ## Localizer Filters
 
-**Localizer Object** 목록에 표시되는 형식 필터 입니다. Text는 **TextLocalizerObject**, Style은 **Text Style Localizer**와 **TMP Style Localizer**, Sprite는 **SpriteLocalizerObject**, DropDown은 **Dropdown Localizer** 및 **TMP Dropdown Localizer**를 의미합니다. 체크가 해제된 형식이 목록에서 비활성화 됩니다.
+**Localizer Object** 목록에 표시되는 형식 필터 입니다. Text는 **TextLocalizerObject**, Style은 **Text Style Localizer**와 **TMP Style Localizer**, Sprite는 **Sprite Localizer Object**, Dropdown은 **Dropdown Localizer** 및 **TMP Dropdown Localizer**를 의미합니다. 체크가 해제된 형식이 목록에서 비활성화 됩니다.
 
 ## Localized Dictionary
 
-프로젝트에 존재하는 모든 **Localized Dictionary**를 찾아볼 수 있습니다. 콤보 박스를 통해 원하는 에셋의 **Key Content Pair**를 미리보기로 볼 수 있습니다. View를 누르면 해당 에셋이 프로젝트에서 포커싱 됩니다. 프리뷰 언어를 변경하여 미리보기의 언어를 선택할 수 있습니다.
+프로젝트에 존재하는 모든 **Localized Dictionary**를 찾아볼 수 있습니다. 콤보 박스를 통해 원하는 에셋의 **Key Content Pair**를 미리보기로 볼 수 있습니다. "View" 버튼을 누르면 해당 에셋이 프로젝트에서 포커싱 됩니다. 프리뷰 언어를 변경하여 미리보기의 언어를 선택할 수 있습니다.
 
 {% hint style="info" %}
 미리보기에서 컨텐츠의 key를 클릭하면 전체 경로가 클립보드에 복사됩니다.
@@ -26,7 +26,7 @@ description: Localizer Object와 에셋들을 찾기 위한 최고의 선택
 
 ## Tag Parameter
 
-프로젝트에 존재하는 모든 **Tag Parameter Collection**을 찾아 볼 수 있습니다. 콤보 박스를 통해 원하는 에셋의 미리보기를 볼 수 있습니다. View를 누르면 해당 에셋이 프로젝트에서 포커싱 됩니다.
+프로젝트에 존재하는 모든 **Tag Parameter Collection**을 찾아 볼 수 있습니다. 콤보 박스를 통해 원하는 에셋의 미리보기를 볼 수 있습니다. "View" 버튼을 누르면 해당 에셋이 프로젝트에서 포커싱 됩니다.
 
 {% hint style="info" %}
 미리보기에서 태그의 이름을 클릭하면 태그 참조가 클립보드에 복사됩니다.
