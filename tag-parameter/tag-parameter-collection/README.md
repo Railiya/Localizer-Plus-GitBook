@@ -6,7 +6,7 @@ description: 미리 만들어 쓰는 Tag Parameter 모음집
 
 **Tag Parameter**를 정의하는 **Parameter Data**를 가지는 컬렉션 스크립터블 오브젝트 입니다. 이는 에디터 단계에서 미리 **Tag Parameter**들을 정의하고 런타임에서 **Tag Parameter List**를 로드하여 **Tag Manager**에 등록하고 본 에셋의 메모리를 해제하는 방식으로 사용됩니다.
 
-**Tag Parameter Collection**은 프로젝트 우 클릭 - Create - Localizer Plus - Tag Parameter Collection을 통해 생성할 수 있습니다.
+**Tag Parameter Collection**은 프로젝트 _우 클릭 - Create - Localizer Plus - Tag Parameter Collection_을 통해 생성할 수 있습니다.
 
 ## 스크립터블 오브젝트
 
@@ -61,5 +61,5 @@ public class TagParameterCollection : ScriptableObject {
 
 | Functions |  |
 | :--- | :--- |
-| Load | [ParameterData](parameter-data.md)들을 [TagParameter](../tag-parameter-list/tag-parameter.md)로 변환하여 엑세스 키를 가진 [TagParameterList](../tag-parameter-list/)를 생성한 후  [TagManager](../tag-manager/)에 등록합니다. unloadOnComplete가 true라면 로드가 끝난 뒤 Resources.UnloadAsset을 호출하여 에셋을 메모리에서 해제합니다. 로드된 TagParameterList를 반환합니다. 엑세스 키가 이미 있거나 비었다면 null을 반환합니다. |
+| Load | [ParameterData](parameter-data.md)들을 [TagParameter](../tag-parameter-list/tag-parameter.md)로 변환하여 엑세스 키를 가진 [TagParameterList](../tag-parameter-list/)를 생성한 후  [TagManager](../tag-manager/)에 등록합니다. unloadOnComplete가 true라면 로드가 끝난 뒤 Resources.UnloadAsset을 호출하여 에셋을 메모리에서 해제합니다. 로드된 [TagParameterList](../tag-parameter-list/)를 반환합니다. 엑세스 키가 이미 있거나 비었다면 null을 반환합니다. |
 
