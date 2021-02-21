@@ -4,15 +4,15 @@ description: Generic type value class in each language
 
 # LValue&lt;T&gt;
 
-언어별로 특정한 값이나 오브젝트 레퍼런스를 다르게 사용하고 싶을 때 사용하는 제네릭 클래스 입니다. **LString, LSprite, LOptionDataList** 등 다양한 로컬라이저에서 사용되며 **LString**은 **Localized Dictionary, Tag Parameter** 에서도 사용됩니다.
+Generic class that used when you want to use the value by each language such as specific value or object reference. It used in various Localizers likes **LString, LSprite, LOptionDataList** and **LString** is used in **Localized Dictionary, Tag Parameter**.
 
-![Cube Collector &#xC608;&#xC81C;&#xC758; LString &#xC608;&#xC2DC;](../.gitbook/assets/lstring_drawer.png)
+![LString example of Cube Collector](../.gitbook/assets/lstring_drawer.png)
 
-미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들은 클래스명 앞에 L이 붙어 있으며 커스텀 프로퍼티 드로워가 적용되어 일반적인 형태로 사용할 수 있는 형식의 경우 인스펙터에 시리얼라이징이 됩니다. 로컬라이저 컴포넌트에서 사용되는 경우에는 컴포넌트 마다 별도의 커스텀 인스펙터가 적용되어 시리얼라이징 됩니다.
+The name of already defined **LValue&lt;T&gt;** Wrapper classes are start with "L" and It also applied custom property drawer, So it can be serialized in inspector if it is common displayed type. Localizer components are can be serialized by applied extra custom inspector.
 
-## 정의된 Wrapper 클래스
+## Defined Wrapper Class
 
-**LString** 및 로컬라이저에 사용되기 위해 미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들 입니다.
+Already defined **LValue&lt;T&gt;** Wrapper classes used in **Localized Dictionary** and Localizers.
 
 | Class | Type | Serialize |
 | :--- | :--- | :--- |
@@ -25,14 +25,14 @@ description: Generic type value class in each language
 | LTMPStyleData | LValue&lt;TMPStyleLocalizer.StyleData&gt; | No |
 
 {% hint style="info" %}
-인스펙터 시리얼라이징은 T 형식이 시리얼라이징이 가능한 형식이며 한 줄 높이 \(EditorGUIUtility.singleLineHeight\) 인 경우에만 적용됩니다.
+Inspector serialize can be possible when the type of T is serialized and the height of line is a single height \(EditorGUIUtility.singleLineHeight\).
 
-위 Serialize 여부는 단순 인스펙터 노출의 의미이며 실제 값들은 정상적으로 저장됩니다.
+These serialize are about just inspector displayed. Actually values are saved normally.
 {% endhint %}
 
-## LStringTextArea 어트리뷰트
+## LStringTextArea Attribute
 
-로컬라이징은 주로 텍스트로 이루어지기 때문에 string의 역할은 중요합니다. 일반 텍스트 필드가 아닌 텍스트 영역으로 표시할 때 **LStringTextArea** 어트리뷰트를 사용합니다.
+The role of string is important because localization is mainly consist of texts. And you can display it as text area with **LStringTextArea** attribute instead of the common text field.
 
 {% code title="LValue.cs" %}
 ```csharp
@@ -44,11 +44,11 @@ public class LStringTextAreaAttribute : PropertyAttribute {
 
 | Constructor |  |
 | :--- | :--- |
-| LStringTextAreaAttribute | 지정된 높이 만큼의 텍스트 영역을 그립니다. 최소 1, 최대 50 입니다. |
+| LStringTextAreaAttribute | Draw text area with specific height. The range is 1 to 50. |
 
 
 
-아래의 예시는 Cube Collector 예제에서 사용된 GameManager의 스크립트와 인스펙터의 일부입니다.
+The follow example is a part of GameManager script and inspector in Cube Collector example.
 
 {% code title="GameManager.cs" %}
 ```csharp
@@ -62,9 +62,9 @@ public class GameManager : MonoBehaviour {
 
 ![](../.gitbook/assets/lstring_textarea_drawer.png)
 
-Language Label 우측의 콤보 박스로 언어별 string 값을 지정할 수 있습니다.
+You can edit string values of each language in a combo box on the right side of Language Label.
 
-## 레퍼런스
+## Reference
 
 {% code title="LValue.cs" %}
 ```csharp
@@ -87,18 +87,18 @@ public class LValue<T> {
 
 | Constructor |  |
 | :--- | :--- |
-| LValue | LValue&lt;T&gt;, T 배열로 부터 또는 빈 LValue를 생성합니다. |
+| LValue | Create empty LValue or create from LValue&lt;T&gt;, T array. |
 
 | Indexer |  |
 | :--- | :--- |
-| this | LanguageText, SystemLanguage 또는 인덱스로부터 값을 가져오거나 설정합니다. |
+| this | Get or set the value by LanguageText, SystemLanguage or index. |
 
 | Properties |  |
 | :--- | :--- |
-| Count | 현재 값의 수를 가져옵니다. 언어가 업데이트 되지 않은 경우 언어의 수와 다를 수 있습니다. |
-| Value | 현재 언어의 값을 가져오거나 설정합니다. |
+| Count | Get number of values. The count can be different if languages are not updated. |
+| Value | Get or set the value of current applied language. |
 
 | Inherits Functions |  |
 | :--- | :--- |
-| ToString | 현재 언어 값의 ToString 된 값을 가져옵니다. |
+| ToString | Get ToString value of current applied language. |
 
