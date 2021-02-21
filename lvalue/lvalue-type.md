@@ -8,11 +8,11 @@ description: 언어별 제네릭 형식 값 클래스
 
 ![Cube Collector &#xC608;&#xC81C;&#xC758; LString &#xC608;&#xC2DC;](../.gitbook/assets/lstring_drawer.png)
 
-미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들은 클래스명 앞에 L이 붙어 있으며 커스텀 프로퍼티 드로워가 적용되어 일반적인 형태로 사용할 수 있는 형식의 경우 인스펙터에 시리얼라이징이 됩니다. 로컬라이저 컴포넌트에서 사용되는 경우에는 컴포넌트 마다 별도의 커스텀 인스펙터가 적용되어 시리얼라이징 됩니다.
+미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들은 클래스명 앞에 "L"이 붙어 있으며 커스텀 프로퍼티 드로워가 적용되어 일반적인 형태로 사용할 수 있는 형식의 경우 인스펙터에 시리얼라이징이 됩니다. 로컬라이저 컴포넌트에서 사용되는 경우에는 컴포넌트 마다 별도의 커스텀 인스펙터가 적용되어 시리얼라이징 됩니다.
 
 ## 정의된 Wrapper 클래스
 
-**LString** 및 로컬라이저에 사용되기 위해 미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들 입니다.
+**Localized Dictionary** 및 로컬라이저에 사용되기 위해 미리 정의된 **LValue&lt;T&gt;** Wrapper 클래스들 입니다.
 
 | Class | Type | Serialize |
 | :--- | :--- | :--- |
