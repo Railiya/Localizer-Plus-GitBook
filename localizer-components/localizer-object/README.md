@@ -20,6 +20,10 @@ If language settings apply goes abnormally, so that **Localizer Objects** doesn'
 
 You can add component by _"Add Component - Localizer"_ in inspector or _"Component - Localizer"_ in editor upper menu. If you're using **Localizer Manager** editor window, "Add Localizer" button will be enabled when select object doesn't have Localizer component and press it to add the component automatically by attached component of object.
 
+{% hint style="info" %}
+By clicking "Add Verified Localizer" or "Add Verified Style Localizer" in Component menu, You can add Localizer or Style Localizer component to all selected game objects in hierarchy. It adds an estimated component by component of game object. It does not add a component if the game object doesn't have a proper component.
+{% endhint %}
+
 
 
 > ### Q. When I use it?
