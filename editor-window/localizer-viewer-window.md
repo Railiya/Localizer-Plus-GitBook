@@ -26,8 +26,6 @@ You can copy full path to the clipboard by clicking the content key in preview.
 
 ## Tag Parameter
 
-프로젝트에 존재하는 모든 **Tag Parameter Collection**을 찾아 볼 수 있습니다. 콤보 박스를 통해 원하는 에셋의 미리보기를 볼 수 있습니다. View를 누르면 해당 에셋이 프로젝트에서 포커싱 됩니다.
-
 Find all **Tag Parameter Collection** in project. You can preview the asset with combo box. And focus asset in project by clicking "View" button.
 
 {% hint style="info" %}
