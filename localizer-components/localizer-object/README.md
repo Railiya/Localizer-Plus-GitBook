@@ -20,6 +20,10 @@ description: 에셋의 핵심의 핵심
 
 Localizer 컴포넌트 들은 인스펙터상에서 _Add Component - Localizer_ 에서 추가하거나 또는 에디터 상단 메뉴에서 _Component - Localizer_ 에서 추가할 수 있습니다. **Localizer Manager** 에디터 윈도우를 사용 중이라면 Localizer 컴포넌트가 없는 오브젝트를 클릭 했을 때 Add Localizer 버튼이 활성화되고 현재 오브젝트에 부착된 컴포넌트에 해당되는 Localizer 가 자동적으로 추가됩니다.
 
+{% hint style="info" %}
+Component 메뉴에서 "Add Verified Localizer" 또는 "Add Verified Style Localizer" 를 사용하여 하이어라키에서 선택된 모든 게임 오브젝트들에게 Localizer 혹은 Style Localizer 컴포넌트를 추가합니다. 컴포넌트는 게임 오브젝트가 가진 컴포넌트에 따라 추정하여 추가됩니다. 해당되는 컴포넌트가 없다면 추가되지 않습니다.
+{% endhint %}
+
 
 
 > ### Q. 언제 사용하죠?
