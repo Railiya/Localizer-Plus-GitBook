@@ -2,7 +2,7 @@
 description: About asset
 ---
 
-# Localizer Plus Documentation
+# Localizer Plus Document
 
 > 반갑소 세상아!
 >

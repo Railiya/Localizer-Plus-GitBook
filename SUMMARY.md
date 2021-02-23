@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Localizer Plus Documentation](README.md)
+* [Localizer Plus Document](README.md)
 
 ## Getting Started
 
