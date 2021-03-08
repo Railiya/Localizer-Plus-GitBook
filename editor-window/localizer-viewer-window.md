@@ -4,7 +4,7 @@ description: Best choice to find Localizer Object and assets
 
 # Localizer Viewer Window
 
-The editor winodw that find **Localizer Objects** in scene and **Localizer Dictionary**, **Tag Parameter Collection** in project at once.
+The editor window that find **Localizer Objects** in scene and **Localizer Dictionary**, **Tag Parameter Collection** in project at once.
 
 ![Localizer list of Cube Collector example](../.gitbook/assets/localizer_viewer_window.png)
 

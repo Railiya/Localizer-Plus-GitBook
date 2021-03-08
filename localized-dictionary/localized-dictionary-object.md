@@ -10,7 +10,7 @@ You can create **Localized Dictionary** by _right click - Create - Localizer Plu
 
 ## Scriptable Object
 
-![The example of Cube Collector ](../.gitbook/assets/localized_dictionary_object_inspector.png)
+![The example of Cube Collector scene](../.gitbook/assets/localized_dictionary_inspector.png)
 
 | Editor Only |  |
 | :--- | :--- |
@@ -20,6 +20,7 @@ You can create **Localized Dictionary** by _right click - Create - Localizer Plu
 | Last Updated | Last update date. |
 | Keys For Primary Language | Use default language content as key. |
 | Allow Multiple Line | Use multiple line in editor text edit. |
+| Link Spread Sheets | Generate contents from google spreadsheets. |
 
 | Key Content Pair Edit |  |
 | :--- | :--- |
@@ -100,6 +101,33 @@ In google spread sheets input area, you can input the url and press "Convert" bu
 | Include Language Columns | Add language column to first line. |
 | Include Return Character | Include carriage return \(\r\) to new line \(\n\). |
 | Enable Content Escape | Save as escaped content. |
+
+## Link Google Spreadsheets
+
+Link Spread Sheets 를 활성화 하면 스프레드 시트의 URL과 여러 시트들의 Pair 이름과 gid를 입력할 수 있는 리스트가 표시됩니다. 원하는 시트들을 gid를 통해 각 내용들을 Key Content Pair로 가져옵니다. 
+
+![Not included example in package](../.gitbook/assets/localized_dictionary_link_spreadsheets.png)
+
+| Properties |  |
+| :--- | :--- |
+| Ignore First Line | Ignore the first column when get the contents. |
+| Sheets URL | Export URL that represented spreadsheets. |
+
+| GID Item |  |
+| :--- | :--- |
+| Pair Name | The [KeyContentPair](localized-dictionary/key-content-pair.md) name when get sheet. |
+| GID | The GID of sheet. |
+
+| Property Edit |  |
+| :--- | :--- |
+| Convert to Export URL | Convert spreadsheets URL to export format. |
+| Add Sheet | Add new GID Item. |
+| Remove Last | Remove last GID Item. |
+| Refresh | Update the contents based on setting. |
+
+{% hint style="info" %}
+The GID is different in each sheet, and it displayed in the last part of link as "gid={number}" format. Just write only number in the GID value.
+{% endhint %}
 
 ## Reference
 
