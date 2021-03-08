@@ -6,11 +6,10 @@ description: Planned or considered matters in future
 
 ## Development Plans
 
-1. [ ] Localized Dictionary - Google Spreadsheets management
-2. [ ] Script Writer - Merge scrt \(cscrt\) file to current swnc \(Language add or edit\)
-3. [ ] Localized Dictionary and swnc file realtime viewer \(Editor window\)
-4. [ ] Right To Left Function
-5. [ ] TagFormatter Tag request function \(Update automatically if tag added\)
+1. [ ] Script Writer - Merge scrt \(cscrt\) file to current swnc \(Language add or edit\)
+2. [ ] Localized Dictionary and swnc file realtime viewer \(Editor window\)
+3. [ ] Right To Left Function
+4. [ ] TagFormatter Tag request function \(Update automatically if tag added\)
 
 ## Recent Communication
 
