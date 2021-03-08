@@ -10,7 +10,7 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 
 ## 스크립터블 오브젝트
 
-![Cube Collector &#xC608;&#xC81C;&#xC758; &#xC608;&#xC2DC; ](../.gitbook/assets/localized_dictionary_object_inspector.png)
+![Cube Collector &#xC608;&#xC81C;&#xC758; &#xC608;&#xC2DC;](../.gitbook/assets/localized_dictionary_inspector.png)
 
 | Editor Only |  |
 | :--- | :--- |
@@ -20,6 +20,7 @@ description: LString 모음집 모음집의 효율적인 사용 수단
 | Last Updated | 마지막 업데이트 날짜 입니다. |
 | Keys For Primary Language | 기본 언어의 내용을 key 값으로 사용합니다. |
 | Allow Multiple Line | 에디터 텍스트 편집의 멀티 라인을 허용합니다. |
+| Link Spread Sheets | 구글 스프레드 시트로부터 내용을 생성합니다. |
 
 | Key Content Pair Edit |  |
 | :--- | :--- |
@@ -82,6 +83,33 @@ Allow Multiple Line 에 따라 에디터의 텍스트 영역의 종류가 달라
 | Include Language Columns | 첫번 째 줄에 언어 컬럼을 추가합니다. |
 | Include Return Character | 새 줄 \(\n\)에 캐리지 리턴 \(\r\) 을 포함합니다. |
 | Enable Content Escape | Escape된 내용으로 저장합니다. |
+
+## 구글 스프레드 시트 연결
+
+Link Spread Sheets 를 활성화 하면 스프레드 시트의 URL과 여러 시트들의 Pair 이름과 gid를 입력할 수 있는 리스트가 표시됩니다. 원하는 시트들을 gid를 통해 각 내용들을 Key Content Pair로 가져옵니다. 
+
+![&#xD328;&#xD0A4;&#xC9C0;&#xC5D0; &#xD3EC;&#xD568;&#xB418;&#xC9C0; &#xC54A;&#xC740; &#xC608;&#xC2DC;](../.gitbook/assets/localized_dictionary_link_spreadsheets.png)
+
+| Properties |  |
+| :--- | :--- |
+| Ignore First Line | 컨텐츠를 가져올 때 첫번째 열을 무시합니다. |
+| Sheets URL | 대표되는 스프레드 시트의 Export URL 입니다. |
+
+| GID Item |  |
+| :--- | :--- |
+| Pair Name | 시트를 가져올 때의 [KeyContentPair](localized-dictionary/key-content-pair.md) 이름입니다. |
+| GID | 시트의 GID 입니다. |
+
+| Property Edit |  |
+| :--- | :--- |
+| Convert to Export URL | 일반 형식의 스프레드 시트 URL을 추출 형식으로 변환합니다. |
+| Add Sheet | GID Item을 추가합니다. |
+| Remove Last | 마지막 GID Item을 제거합니다. |
+| Refresh | 설정된 항목들을 기준으로 컨텐츠를 업데이트 합니다. |
+
+{% hint style="info" %}
+GID는 시트마다 다르며 링크의 가장 마지막 부분에 "gid={number}" 형식으로 표시되어 있습니다. 이 중 숫자 부분만 GID 값에 입력하면 됩니다.
+{% endhint %}
 
 ## 레퍼런스
 
