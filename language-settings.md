@@ -20,7 +20,7 @@ You can create asset in **Localizer Manager** editor window if asset is not in p
 
 ![](.gitbook/assets/language_settings_projectsettings.png)
 
-Basically language edit is enabled for prevent mistakes. You can press "Enable Edit" to activate language edit. Press "Add New" or "Remove Last" to add or remove languages an "Apply Languages" to change languages. This work doing compile, update assets and Localizer components, so it can be takes time a while.
+Basically language edit is enabled to prevent mistakes. You can press "Enable Edit" to activate language edit. Press "Add New" or "Remove Last" to add or remove languages and "Apply Languages" to change languages. This work involves compiling, updating assets and Localizer components, so it can take time.
 
 {% hint style="info" %}
 Changing language setting is modifying content of **Languages.cs** script in _Runtime_ script folder and recompile. If you edit script via scripting, It asks you to select what you will use between current language settings or restore project setting languages. This method can not update language settings of components and assets. So you have to press "Update Project Language Settings" in **Localizer Manager** editor window to update.
