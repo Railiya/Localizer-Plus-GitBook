@@ -1,15 +1,15 @@
 ---
-description: 무엇이 변경 되었나
+description: What has been changed
 ---
 
-# 릴리스 노트
+# Release Notes
 
 ## 2021-03-01 \(v1.0\)
 
 ### RELEASED
 
-* 아무래도 에셋이 출시된 모양입니다.
-* 여러분들의 피드백을 기대하고 있습니다.
+* Maybe asset published.
+* I'm in expectation of your feedback.
 
 
 

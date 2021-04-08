@@ -1,28 +1,28 @@
 ---
-description: 예제 게임으로 알아보는 기본 기능들
+description: Basic functions learned with example games
 ---
 
-# 예제 게임
+# Example Games
 
-본 에셋에는 두 가지의 예제 게임이 포함되어 있습니다. 패키지를 임포트하면 _LocalizerPlus - Demo_ 폴더에서 원하는 예제 게임의 폴더로 들어가 Demo.scene을 열어 게임을 플레이 해볼 수 있습니다.
+This asset includes two example games. When the package is imported, you can open demo scenes in _LocalizerPlus - Demo_ folder to play example games.
 
 {% hint style="info" %}
-예제 게임은 렌더 파이프 라인이 적용되지 않은 상태에서 제작되어 있어 URP 혹은 HDRP를 사용하고 있는 경우라면 매트리얼에 문제가 생길 수 있습니다. 이 상태에서 플레이를 하려면 씬의 매트리얼을 업그레이드 한 뒤 플레이하면 됩니다.
+Example games are made without render pipeline. If you use URP or HDRP, the materials are doesn't work properly. You can upgrade scene materials to play.
 {% endhint %}
 
 {% hint style="warning" %}
-**이미 예제를 확인 했거나 불필요하다면 개발에 영향을 줄 수 있으니 Demo 폴더를 지우길 바랍니다.**
+**If you already check examples, or you don't need it, please remove Demo folder. It can be affected on development.**
 {% endhint %}
 
 ## **Cube Collector**
 
-이 예제에서는 **Text Localizer, Tag Formatter, Text Style Localizer, Localized Dictionary**, **LString**, **Tag Parameter**의 단편적인 사용 예시를 볼 수 있습니다.
+You can learn about **Text Localizer, Tag Formatter, Text Style Localizer, Localized Dictionary**, **LString**, **Tag Parameter** in this example.
 
-&lt;yotube link 준비 중&gt;
+&lt;preparation of yotube link&gt;
 
 ## Capsule Story
 
-이 예제에서는 **Text Localizer, Compressed Script, SwncExporter**의 사용 예시를 볼 수 있습니다.
+You can learn about **Text Localizer, Compressed Script, SwncExporter** in this example.
 
-&lt;youtube link 준비 중&gt;
+&lt;preparation of yotube link&gt;
 

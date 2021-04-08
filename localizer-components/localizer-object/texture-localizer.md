@@ -4,18 +4,18 @@ description: 'base class : LocalizerObject'
 
 # Texture Localizer
 
-MeshRenderer 컴포넌트에 사용되는 Localizer 컴포넌트 입니다.
+The Localizer component used in MeshRenderer component.
 
-## 컴포넌트
+## Component
 
 ![](../../.gitbook/assets/texture_localizer_inspector.png)
 
 | Properties |  |
 | :--- | :--- |
-| UseSharedMaterial | sharedMaterial의 mainTexture를 변경합니다. 이 작업은 매트리얼을 공유하는 모든 렌더러들에게 영향을 줍니다. 기본값은 true 입니다. 비활성화 시 렌더러의 인스턴스 material 의 texture를 변경합니다. **이 작업은 에디터 상태에서는 이루어지지 않으며 비활성화를 권장하지 않습니다.** |
-| LTexture | 언어별 텍스처를 지정합니다. 언어가 변경될 경우 컴포넌트의 매트리얼 메인 텍스처가 변경된 언어의 텍스처로 설정됩니다. |
+| UseSharedMaterial | Change mainTexture in sharedMaterial. This work affect to every renderers sharing the materials. Default is true. If it's disabled, It will change the texture of instance materials. **This work doesn't occur in editor state, and it's not recommended.** |
+| LTexture | Edit texture of each language. It changes its component texture when language is changed. |
 
-## 레퍼런스
+## Reference
 
 {% code title="TextureLocalizer.cs" %}
 ```csharp
@@ -33,32 +33,16 @@ public class TextureLocalizer : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LTexture | Texture 타입의 [LValue&lt;T&gt;](../../lvalue/lvalue-type.md) Wrapper 클래스입니다. |
+| LTexture | [LValue&lt;T&gt;](../../lvalue/lvalue-type.md) Wrapper class of Texture type. |
 
 | Properties |  |
 | :--- | :--- |
-| Component | MeshRenderer 컴포넌트를 가져옵니다. |
-| LTexture | 컴포넌트의 언어별 텍스처를 가져오거나 변경합니다. |
-| Texture | 컴포넌트의 매트리얼 mainTexture 값을 가져옵니다. |
-| UseSharedMaterial | sharedMaterial의 mainTexture를 변경합니다. 비활성화 시 렌더러의 인스턴스 material 의 texture를 변경합니다. 기본값은 true 입니다. |
+| Component | Get MeshRenderer component. |
+| LTexture | Get or set texture each language of the component. |
+| Texture | Get mainTexture value in material  of component. |
+| UseSharedMaterial | Change mainTexture in sharedMaterial. If it's disabled, It will change the texture of instance materials. Default is true. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Inherited Functions</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">SetComponent</td>
-      <td style="text-align:left">
-        <p>MeshRenderer &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;
-          &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Inherited Functions |  |
+| :--- | :--- |
+| SetComponent | Fine and set MeshRenderer component. If it success, it's true and false it's not. |
 

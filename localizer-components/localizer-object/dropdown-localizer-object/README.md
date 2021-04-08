@@ -4,11 +4,11 @@ description: 'base class : LocalizerObject'
 
 # Dropdown Localizer Object
 
-**Dropdown Localizer, TMP Dropdown Localizer**의 베이스 클래스입니다.
+base class of the **Dropdown Localizer, TMP Dropdown Localizer**.
 
-Dropdown 과 TMP\_Dropdown에서 사용되는 OptionData 형식이 다르기 때문에 이 둘을 호환시켜주기 위해 **LocalizerOptionData**와 **LocalizerOptionDataList**를 사용합니다. 또한 편의성을 위해 상호간 변환 확장 함수가 제공됩니다.
+It uses **LocalizerOptionData** and **LocalizerOptionDataList** for compatibility because OptionData in Dropdown and TMP\_Dropdown is different. Also, it provides extension functions convert each types for convenience.
 
-## 레퍼런스
+## Reference
 
 {% code title="LocalizerObject.cs" %}
 ```csharp
@@ -25,15 +25,15 @@ public DropdownLocalizerObject : LocalizerObject {
 
 | Value Definition |  |
 | :--- | :--- |
-| LOptionDataList | [LocalizerOptionDataList ](localizer-option-data-list/)타입의 [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper 클래스입니다. |
+| LOptionDataList | [LValue&lt;T&gt;](../../../lvalue/lvalue-type.md) Wrapper class of  [LocalizerOptionDataList ](localizer-option-data-list/)type. |
 
 | **Properties** |  |
 | :--- | :--- |
-| LOptions | 컴포넌트의 언어별 드롭다운 옵션들을 가져오거나 변경합니다. |
+| LOptions | Get or set dropdown options each language of the component. |
 
 | Abstract Properties |  |
 | :--- | :--- |
-| Options | 컴포넌트의 드롭다운 옵션들을 가져옵니다. |
+| Options | Get dropdown options in component. |
 
 <table>
   <thead>
@@ -46,10 +46,8 @@ public DropdownLocalizerObject : LocalizerObject {
     <tr>
       <td style="text-align:left">SetComponent ()</td>
       <td style="text-align:left">
-        <p>&#xD604;&#xC7AC; &#xC624;&#xBE0C;&#xC81D;&#xD2B8;&#xC5D0; &#xBD80;&#xCC29;&#xB41C;
-          &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
+        <p>Set component attached in current object.</p>
+        <p>If it success, it&apos;s true and false it&apos;s not.</p>
       </td>
     </tr>
   </tbody>

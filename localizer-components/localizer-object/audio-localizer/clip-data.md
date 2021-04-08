@@ -1,8 +1,8 @@
 # Clip Data
 
-오디오 클립 및 볼륨의 정보를 가집니다.
+Getting audio clip and volume.
 
-## 레퍼런스
+## Reference
 
 {% code title="AudioLocalizer.cs" %}
 ```csharp
@@ -18,10 +18,10 @@ public class ClipData {
 
 | Variables |  |
 | :--- | :--- |
-| clip | 오디오 클립입니다. |
-| volume | 오디오 볼륨입니다. |
+| clip | Audio clip. |
+| volume | Audio volume. |
 
 | Constructors |  |
 | :--- | :--- |
-| ClipData | 오디오 클립과 볼륨으로부터 ClipData를 생성합니다. |
+| ClipData | Create ClipData from audio clip and volume. |
 
