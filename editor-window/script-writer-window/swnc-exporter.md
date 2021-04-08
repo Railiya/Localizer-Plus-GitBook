@@ -1,2 +1,0 @@
-# Swnc Exporter
-
