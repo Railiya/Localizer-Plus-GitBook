@@ -8,8 +8,10 @@ description: What has been changed
 
 ### RELEASED
 
-* Maybe asset published.
+* Actually release prepare is end in this time.
+* I didn't know I share it for free.
 * I'm in expectation of your feedback.
+* 'Cause I'm using it too.
 
 
 

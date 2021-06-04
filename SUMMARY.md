@@ -4,10 +4,8 @@
 
 ## Getting Started
 
----
-
-* [Language Settings](language-settings.md)
-* [Example Games](example-game.md)
+* [Language Settings](getting-started/language-settings.md)
+* [Example Games](getting-started/example-game.md)
 
 ## Localizer Components
 
@@ -79,8 +77,6 @@
 * [Support Notes](development-note/support-notes.md)
 
 ## External Links
-
----
 
 * [Developer Blog \(Korean\)](https://blog.naver.com/2983934)
 * [Script Writer Program](https://blog.naver.com/2983934/222072818429)
