@@ -13,7 +13,6 @@ description: Planned or considered matters in future
 
 ## Recent Communication
 
-* Awaiting your comments.
 * Your comments may be collected.
 * But will that be reflected?!
 * The truth is beyond.
