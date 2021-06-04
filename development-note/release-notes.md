@@ -1,17 +1,13 @@
 ---
-description: 무엇이 변경 되었나
+description: What has been changed
 ---
 
-# 릴리스 노트
+# Release Notes
 
 ## 2021-03-01 \(v1.0\)
 
 ### RELEASED
 
-* 사실 이 때 출시 준비가 끝났습니다.
-* 설마 무료로 배포하게 될 줄은 몰랐습니다.
-* 여러분들의 피드백을 기대하고 있습니다.
-* 필자도 쓰고 있으니까요.
-
-
+* Maybe asset published.
+* I'm in expectation of your feedback.
 

@@ -1,8 +1,8 @@
 # Style Data
 
-폰트 및 라인 스페이싱 정보를 가집니다.‌
+Getting information of font and line spacing.‌
 
-## 레퍼런스 <a id="undefined"></a>
+## Reference <a id="undefined"></a>
 
 {% code title="TextStyleLocalizer.cs" %}
 ```csharp
@@ -15,8 +15,6 @@ public class StyleData {
 
 | Variables | ​Title |
 | :--- | :--- |
-| font | 텍스트 폰트입니다. |
-| lineSpacing | 텍스트의 라인 스페이싱입니다. |
-
-
+| font | Text font. |
+| lineSpacing | Text line spacing. |
 
