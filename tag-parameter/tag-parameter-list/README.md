@@ -1,16 +1,16 @@
 ---
-description: Tag Parameter collection
+description: Tag Parameter 모음집
 ---
 
 # Tag Parameter List
 
-The class that manage the **Tag Parameter**. **Tag Parameter List** has an access key, and can get **Tag Parameter List** from **Tag Manager** by access key.
+**Tag Parameter**를 관리하는 클래스 입니다. **Tag Parameter List**는 엑세스 키를 가지며 **Tag Manager**에서 엑세스 키를 통해 **Tag Parameter List**를 가져옵니다. 
 
 {% hint style="info" %}
-**Tag Parameter List** can be used when registered in Tags of **Tag Manager**.
+**Tag Parameter List**는 **Tag Manager**의 Tags에 등록해야 사용할 수 있습니다.
 {% endhint %}
 
-## Reference
+## 레퍼런스
 
 {% code title="TagParameterList.cs" %}
 ```csharp
@@ -37,21 +37,21 @@ public class TagParameterList {
 
 | Constructor |  |
 | :--- | :--- |
-| TagParameterList | Create TagParameterList with access key. |
+| TagParameterList | 엑세스 키를 가진 TagParameterList를 생성합니다. |
 
 | Indexer |  |
 | :--- | :--- |
-| this | Get [TagPrameter](tag-parameter.md) by key. |
+| this | 해당 key의 [TagPrameter](tag-parameter.md)를 가져옵니다. |
 
 | Properties |  |
 | :--- | :--- |
-| AccessKey | The access key of TagParameterList in [TagCollection](../tag-manager/tag-collection.md). |
+| AccessKey | [TagCollection](../tag-manager/tag-collection.md)의 TagParameterList 접근 키 입니다. |
 
 | Functions |  |
 | :--- | :--- |
-| Add | Add [TagParameter](tag-parameter.md). Return false if key exists. |
-| Add | Add [TagParameter](tag-parameter.md). Return created [TagPrameter](tag-parameter.md). |
-| AddArray | Add array type [TagParameter](tag-parameter.md). Return created [TagParameter](tag-parameter.md). |
-| Remove | Remove [TagParameter](tag-parameter.md) by key. |
-| Clear | Remove all [TagParameter](tag-parameter.md) in list. |
+| Add | [TagParameter](tag-parameter.md)를 추가합니다. key가 이미 있다면 false를 반환합니다. |
+| Add | [TagParameter](tag-parameter.md)를 추가합니다. 생성된 [TagPrameter](tag-parameter.md)를 반환합니다. |
+| AddArray | 배열 형식의 [TagParameter](tag-parameter.md)를 추가합니다. 생성된 [TagParameter](tag-parameter.md)를 반환합니다. |
+| Remove | 특정 key의 [TagParameter](tag-parameter.md)를 제거합니다. |
+| Clear | 보유중인 [TagParameter](tag-parameter.md)들을 제거합니다. |
 

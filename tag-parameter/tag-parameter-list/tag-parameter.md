@@ -1,18 +1,18 @@
 # Tag Parameter
 
-The tag with has a specific value used in **Tag Formatter**.
+**Tag Formatter** 에서 사용되는 특정 값을 가진 태그입니다. 
 
 {% hint style="info" %}
-When **Tag Parameter** created, It has **Tag Parameter Type**. Only can get or set the value if type is matched. But you can get String value regardless of type.
+**Tag Parameter**는 생성될 때 **Tag Parameter Type**을 가지며 값을 가져오거나 설정할 때 형식과 일치해야만 정상적으로 동작합니다. 다만 String 값은 형식과 관계 없이 가져올 수 있습니다. 
 
-When value is changed, It calls Refresh of referred **Tag Formatter**.
+값이 변경될 경우 참조되어 있는 **Tag Formatter** 들의 Refresh를 호출합니다.
 {% endhint %}
 
 {% hint style="warning" %}
-When get or set the value that not String or **LString** type, It saves value as string by parse or use ToString. So it can be affect to GC if you call frequently likes Update.
+String과 **LString**을 제외한 값을 가져오거나 설정할 때는 파싱과 ToString 을 통해 string으로 내부에 보관됩니다. 따라서 Update 내의 호출과 같이 잦은 호출은 GC에 영향을 줄 수 있습니다.
 {% endhint %}
 
-## Reference
+## 레퍼런스
 
 {% code title="TagParameterList.cs" %}
 ```csharp
@@ -37,28 +37,28 @@ public class TagParameter {
 
 | Constructor |  |
 | :--- | :--- |
-| TagParameter | Create TagParameter from parameter type and array. |
+| TagParameter | 파라미터 형식과 배열 여부로부터 TagParameter를 생성합니다. |
 
 | Indexer |  |
 | :--- | :--- |
-| this | Get sub TagParameter by index. Return null if it's not array. |
+| this | 인덱스를 통해 하위 TagParameter를 가져옵니다. 배열이 아닐 경우 null을 반환합니다. |
 
 | Properties |  |
 | :--- | :--- |
-| Type | Parameter type of value. |
-| TagReference | Reference format of TagParameter used in text. |
-| IsArray | Return whether Its array or not. |
-| ArrayCapacity | Capacity size of the array. Maximum is MaximumTagParameterArraySize in [TagManager](../tag-manager/). |
-| ArraySize | Size of array. Return -1 if it's not array. |
-| Int | Get or set int value. |
-| Float | Get or set float value. |
-| Bool | Get or set bool value. |
-| String | Get string value regardless of parameter type or set string value. |
-| LString | Get or set [LString](../../lvalue/lvalue-type.md). |
+| Type | 보유중인 값의 형식입니다. |
+| TagReference | 텍스트에서 사용되는 TagParameter의 참조 형식입니다. |
+| IsArray | 배열의 여부입니다. |
+| ArrayCapacity | 배열의 버퍼 크기입니다. 최대 크기는 [TagManager](../tag-manager/)의 MaximumTagParameterArraySize 입니다. |
+| ArraySize | 배열의 크기입니다. 배열이 아닐 경우 -1을 반환합니다. |
+| Int | int 값을 가져오거나 설정합니다. |
+| Float | float 값을 가져오거나 설정합니다. |
+| Bool | bool 값을 가져오거나 설정합니다. |
+| String | 파라미터 형식과 상관없이 string 값을 가져오거나 설정합니다. |
+| LString | [LString](../../lvalue/lvalue-type.md) 값을 가져오거나 설정합니다. |
 
 {% hint style="info" %}
-Array type **Tag Parameter** doesn't have value. You can get sub Tag Parameter by indexer.
+배열 형식의 **Tag Parameter**는 값을 가지지 않습니다. 인덱서를 통해 값을 가진 하위 **Tag Parameter**를 가져올 수 있습니다.
 
-If index that over the array size called or set, buffer size will be expanded automatically. The size doesn't exceed the MaximumTagParameterArraySize in **Tag Manager**.
+배열의 크기를 초과한 인덱스가 호출되거나 설정 할 경우 자동적으로 버퍼의 크기가 확장됩니다. 다만 이 크기는 **Tag Manager**의 MaximumTagParameterArraySize 를 초과하지 않습니다.
 {% endhint %}
 

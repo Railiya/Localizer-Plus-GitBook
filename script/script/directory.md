@@ -1,10 +1,10 @@
 # Directory
 
-Folder class that has actually contents and sub **Directories**. You can get content by indexer and GetContent function.
+실제 컨텐츠와 하위 **Directory**를 가지는 폴더 클래스입니다. 인덱서 및 GetContent 함수를 통해 컨텐츠를 가져올 수 있습니다.
 
-You can get content by index if indexing is true when **Script** loaded.
+**Script**가 로드될 때 indexing이 true라면 인덱스를 통해 컨텐츠를 가져올 수 있습니다.
 
-## Reference
+## 레퍼런스
 
 {% code title="ScriptReader.cs" %}
 ```csharp
@@ -32,32 +32,32 @@ public class Directory {
 
 | Indexer |  |
 | :--- | :--- |
-| this | Get content from path or index. |
+| this | 경로와 인덱스로부터 컨텐츠를 가져옵니다. |
 
 | Properties |  |
 | :--- | :--- |
-| Parent | Get parent Directory. |
-| Name | The name of Directory. |
-| Path | The full path of Directory. |
-| ScriptCount | Get number of contents has. |
-| DirectoryCount | Get number of sub Directories. |
-| SubDirectories | Get sub directories. |
-| ScriptKeys | Get id of contents |
-| ScriptValues | Get contents. |
+| Parent | 상위 Directory를 가져옵니다. |
+| Name | Directory의 경로 이름입니다. |
+| Path | Directory의 전체 경로 입니다. |
+| ScriptCount | 보유중인 컨텐츠의 수 입니다. |
+| DirectoryCount | 하위 Directory의 수 입니다. |
+| SubDirectories | 하위 Directory들을 가져옵니다. |
+| ScriptKeys | 보유중인 컨텐츠의 id들을 가져옵니다. |
+| ScriptValues | 보유중인 컨텐츠들을 가져옵니다. |
 
 | Functions |  |
 | :--- | :--- |
-| GetContent | Get content by id. |
-| GetSubDirectory | Get Directory by name. |
-| Contains | Get existence of content from id. |
-| HasIndex | Get existence of content from index. |
-| HasSubDirectory | Get existence of Directory from name. |
+| GetContent | 해당 id의 컨텐츠를 가져옵니다. |
+| GetSubDirectory | 해당 이름의 Directory를 가져옵니다. |
+| Contains | 해당 id의 컨텐츠의 존재 여부를 가져옵니다. |
+| HasIndex | 해당 인덱스의 컨텐츠 존재 여부를 가져옵니다. |
+| HasSubDirectory | 해당 이름의 Directory 존재 여부를 가져옵니다. |
 
-## Get content from Directory
+## Directory로 부터 컨텐츠 가져오기
 
-The indexer of **Directory** is return content. The string indexer return content from relative path and int indexer return content from current **Directory** by index.
+**Directory**의 인덱서는 컨텐츠를 반환합니다. string 인덱서는 상대 경로로부터 컨텐츠를 가져오며 int 인덱서는 현재 **Directory**에서 인덱스에 해당되는 컨텐츠를 가져옵니다.
 
-The example is to get content from path "First/Second/script001".
+예시는 "First/Second/script001" 경로의 컨텐츠를 가져오는 예시입니다.
 
 ```csharp
 private Script script;
@@ -74,6 +74,6 @@ private void Start () {
 ```
 
 {% hint style="info" %}
-GetContent is function that get content of current **Directory** unlike indexer. Get content by indexer is needed extra work and GetContent is not. However, there is no significant difference in performance, so you can use it in a convenient way.
+GetContent는 인덱서와 달리 현재 **Directory**의 컨텐츠를 가져오는 함수입니다. 인덱서로 하위 컨텐츠를 가져올 때는 추가적인 경로 조사가 필요하며 GetContent는 그런 작업 없이 바로 가져올 수 있습니다. 다만, 성능적으로 크게 차이는 없으니 편한 방법으로 사용해도 됩니다.
 {% endhint %}
 

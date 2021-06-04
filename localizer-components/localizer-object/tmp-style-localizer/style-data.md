@@ -1,8 +1,8 @@
 # Style Data
 
-Getting information of font asset, material preset and spacing options.‌
+폰트 에셋, 매트리얼 프리셋 및 스페이싱 옵션들의 정보를 가집니다.‌
 
-## Reference <a id="undefined"></a>
+## 레퍼런스 <a id="undefined"></a>
 
 {% code title="TMPStyleLocalizer.cs" %}
 ```csharp
@@ -16,7 +16,7 @@ public class StyleData {
 
 | Variables | ​Title |
 | :--- | :--- |
-| fontAsset | Text font asset. |
-| materialPreset | Text material preset of font. |
-| spacingOptions | Text spacing options. |
+| fontAsset | 텍스트 폰트 에셋입니다. |
+| materialPreset | 텍스트 폰트의 매트리얼 프리셋입니다. |
+| spacingOptions | 텍스트 스페이싱 옵션들입니다. |
 
