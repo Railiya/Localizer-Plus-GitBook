@@ -4,24 +4,24 @@ description: 'base class : DropdownLocalizerObject'
 
 # TMP Dropdown Localizer
 
-The Localizer component used in TMP\_Dropdown component.
+TMP\_Dropdown 컴포넌트에 사용되는 Localizer 컴포넌트 입니다.
 
-## Component
+## 컴포넌트
 
 ![](../../../.gitbook/assets/tmp_dropdown_localizer_inspector.png)
 
 | Properties |  |
 | :--- | :--- |
-| OptionSize | Set element count. |
-| LOptions | Edit options of each language. It changes its component options when language is changed. |
+| OptionSize | 항목의 수를 설정합니다. |
+| LOptions | 언어별 드롭다운 옵션들을 지정합니다. 언어가 변경될 경우 컴포넌트의 옵션들이 변경된 언어의 옵션들로 설정됩니다. |
 
-## Reference
+## 레퍼런스
 
 {% code title="TMPDropdownLocalizer.cs" %}
 ```csharp
 public class TMPDropdownLocalizer : DropdownLocalizerObject {
     public TMPro.TMP_Dropdown Component { get; }
-
+    
     public override LocalizerOptionDataList Options { get }  
     public override bool SetComponent () { }
 }
@@ -30,11 +30,25 @@ public class TMPDropdownLocalizer : DropdownLocalizerObject {
 
 | Properties |  |
 | :--- | :--- |
-| Component | Get TMP\_Dropdown component. |
+| Component | TMP Dropdown 컴포넌트를 가져옵니다. |
 
-| Inherited Properties |  |
-| :--- | :--- |
-| Options | Get converted LocalizerOptionDataList from options in TMP\_Dropdown. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Inherited Properties</th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Options</td>
+      <td style="text-align:left">
+        <p>TMP Dropdown&#xC758; options &#xAC12;&#xC744; LocalizerOptionDataList&#xB85C;</p>
+        <p>&#xBCC0;&#xD658;&#xD558;&#xC5EC; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
   <thead>
@@ -47,8 +61,10 @@ public class TMPDropdownLocalizer : DropdownLocalizerObject {
     <tr>
       <td style="text-align:left">SetComponent</td>
       <td style="text-align:left">
-        <p>Fine and set TMP_Dropdown component.</p>
-        <p>If it success, it&apos;s true and false it&apos;s not.</p>
+        <p>TMP Dropdown &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544;
+          &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
+        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
+          false &#xC785;&#xB2C8;&#xB2E4;.</p>
       </td>
     </tr>
   </tbody>

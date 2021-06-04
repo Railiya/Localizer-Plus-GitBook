@@ -1,11 +1,13 @@
 # Table of contents
 
-* [Localizer Plus Document](README.md)
+* [Localizer Plus 문서](README.md)
 
-## Getting Started
+## 이제 시작 해볼까 합니다 <a id="getting-started"></a>
 
-* [Language Settings](getting-started/language-settings.md)
-* [Example Games](getting-started/example-game.md)
+---
+
+* [언어 설정](language-settings.md)
+* [예제 게임](example-game.md)
 
 ## Localizer Components
 
@@ -53,7 +55,7 @@
 ## LValue
 
 * [LValue&lt;T&gt;](lvalue/lvalue-type.md)
-* [Add Custom Type](lvalue/add-custom-type.md)
+* [커스텀 형식 추가](lvalue/add-custom-type.md)
 
 ## Script
 
@@ -67,17 +69,19 @@
 * [Localizer Viewer Window](editor-window/localizer-viewer-window.md)
 * [Script Writer Window](editor-window/script-writer-window.md)
 
-## Utility
+## 유틸리티 <a id="utility"></a>
 
 * [Swnc Exporter](utility/swnc-exporter.md)
 
-## Developer Notes <a id="development-note"></a>
+## 개발자 노트 <a id="development-note"></a>
 
-* [Release Notes](development-note/release-notes.md)
-* [Support Notes](development-note/support-notes.md)
+* [릴리스 노트](development-note/release-notes.md)
+* [지원 예정](development-note/support-notes.md)
 
-## External Links
+## 외부 링크 <a id="external-links"></a>
 
-* [Developer Blog \(Korean\)](https://blog.naver.com/2983934)
+---
+
+* [개발자 블로그](https://blog.naver.com/2983934)
 * [Script Writer Program](https://blog.naver.com/2983934/222072818429)
 

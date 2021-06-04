@@ -1,8 +1,8 @@
 # Spacing Option
 
-Getting spacing option values of Text Mesh Pro Text.‌
+Text Mesh Pro Text의 각 스페이싱 옵션 값들을 가집니다.‌
 
-## Reference <a id="undefined"></a>
+## 레퍼런스 <a id="undefined"></a>
 
 {% code title="TMPStyleLocalizer.cs" %}
 ```csharp
@@ -11,9 +11,9 @@ public struct SpacingOption {
     public float word;
     public float line;
     public float paragraph;
-
+    
     public SpacingOption (float character, float word, float line, float paragraph) { }
-
+    
     public static SpacingOption FromVector4 (UnityEngine.Vector4 vector) { }
 }
 ```
@@ -21,16 +21,18 @@ public struct SpacingOption {
 
 | Variables | ​Title |
 | :--- | :--- |
-| character | Distance of between each characters in text. |
-| word | Distance of between each words in text. |
-| line | Distance of between lines in text. |
-| paragraph | Distance of between paragraphs in text. |
+| character | 텍스트의 각 문자 사이의 간격입니다. |
+| word | 텍스트의 각 단어 사이의 간격입니다. |
+| line | 텍스트의 라인 사이의 간격입니다. |
+| paragraph | 텍스트의 문단 사이의 간격입니다. |
 
 | Constructor |  |
 | :--- | :--- |
-| SpacingOption | Create SpacingOption from each spacing option values. |
+| SpacingOption | 각 스페이싱 옵션 값들로부터 SpacingOption을 생성합니다. |
 
 | Static Functions |  |
 | :--- | :--- |
-| FromVector4 | Create SpacingOption from Vector4. |
+| FromVector4 | Vector4 값들로부터 SpacingOption을 생성합니다. |
+
+
 
