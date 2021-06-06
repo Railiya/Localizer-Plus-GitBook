@@ -81,5 +81,7 @@ public static class LocalizerManager {
   </tbody>
 </table>
 
-
+{% hint style="warning" %}
+게임 내에서 사용되는 언어의 값들은 **SelectedLanguage** 및 **SelectedLanguageIndex** 를 기반으로 결정됩니다. 기본값은 항상 0번 인덱스의 언어이며 이는 **SetLanguage**를 통해서만 변경됩니다. **Localizer Manager Window**를 통한 씬의 언어 변경은 이에 영향을 주지 않습니다. 정상적인 언어 변경을 위해 언어 테스트 이후 반드시 0번 인덱스의 언어로 변경하길 권장합니다.
+{% endhint %}
 
