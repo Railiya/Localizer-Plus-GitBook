@@ -79,5 +79,7 @@ public static class LocalizerManager {
   </tbody>
 </table>
 
-
+{% hint style="warning" %}
+The languages used in the game is decided base on **SelectLanguage** and **SelectedLanguageIndex**. Default is always language in 0 index, and it changed only through **SetLanguage**. Scene language change with **Localizer Manager Window** does not affect to it. For change the language normally, recommend to set language to 0 index language after language test of scene.
+{% endhint %}
 
