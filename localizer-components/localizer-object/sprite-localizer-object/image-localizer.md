@@ -8,29 +8,11 @@ UGUI Image 컴포넌트에 사용되는 Localizer 컴포넌트 입니다.
 
 ## 컴포넌트
 
-![](../../../.gitbook/assets/image_localizer_inspector.png)
+![](../../../.gitbook/assets/image\_localizer\_inspector.PNG)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Properties</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">LSprite</td>
-      <td style="text-align:left">
-        <p>&#xC5B8;&#xC5B4;&#xBCC4; &#xC2A4;&#xD504;&#xB77C;&#xC774;&#xD2B8;&#xB97C;
-          &#xC9C0;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC5B8;&#xC5B4;&#xAC00; &#xBCC0;&#xACBD;&#xB420; &#xACBD;&#xC6B0; &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xC758;
-          &#xC2A4;&#xD504;&#xB77C;&#xC774;&#xD2B8;&#xAC00; &#xBCC0;&#xACBD;&#xB41C;
-          &#xC5B8;&#xC5B4;&#xC758; &#xC2A4;&#xD504;&#xB77C;&#xC774;&#xD2B8;&#xB85C;
-          &#xC124;&#xC815;&#xB429;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Properties |                                                                               |
+| ---------- | ----------------------------------------------------------------------------- |
+| LSprite    | <p>언어별 스프라이트를 지정합니다. </p><p>언어가 변경될 경우 컴포넌트의 스프라이트가 변경된 언어의 스프라이트로 설정됩니다.</p> |
 
 ## 레퍼런스
 
@@ -45,30 +27,14 @@ public class ImageLocalizer : SpriteLocalizerObject {
 ```
 {% endcode %}
 
-| Properties |  |
-| :--- | :--- |
-| Component | UGUI Image 컴포넌트를 가져옵니다. |
+| Properties |                         |
+| ---------- | ----------------------- |
+| Component  | UGUI Image 컴포넌트를 가져옵니다. |
 
-| Inherited Properties |  |
-| :--- | :--- |
-| Text | UGUI Image 컴포넌트의 sprite 값을 가져옵니다. |
+| Inherited Properties |                                   |
+| -------------------- | --------------------------------- |
+| Text                 | UGUI Image 컴포넌트의 sprite 값을 가져옵니다. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Inherited Functions</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">SetComponent</td>
-      <td style="text-align:left">
-        <p>UGUI Image &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+| Inherited Functions |                                                                        |
+| ------------------- | ---------------------------------------------------------------------- |
+| SetComponent        | <p>UGUI Image 컴포넌트를 찾아 설정합니다. </p><p>성공하면 true, 그렇지 않으면 false 입니다.</p> |

@@ -6,7 +6,7 @@ description: 에셋의 핵심
 
 언어 설정 및 **Localizer Object** 를 관리하는 static class입니다.
 
-**Localizer Object**의 언어를 변경하기 위해서는 **Localizer Manager**의 **SetLanguage** 를 호출합니다. 현재 언어의 정보를 가져오려면 **SelectedLanguage** 혹은 **SelectedLanguageIndex**를 통해 가져올 수 있습니다. 언어가 변경되었을 때 호출되는 이벤트가 필요하다면 **OnLanguageChagned**를 사용합니다.
+**Localizer Object**의 언어를 변경하기 위해서는 **Localizer Manager**의 **SetLanguage** 를 호출합니다. 현재 언어의 정보를 가져오려면 **SelectedLanguage **혹은 **SelectedLanguageIndex**를 통해 가져올 수 있습니다. 언어가 변경되었을 때 호출되는 이벤트가 필요하다면 **OnLanguageChagned**를 사용합니다.
 
 ## 레퍼런스
 
@@ -33,55 +33,24 @@ public static class LocalizerManager {
 ```
 {% endcode %}
 
-| Static Properties |  |
-| :--- | :--- |
-| Languages | 프로젝트의 언어 목록을 가져옵니다. |
-| SelectedLanguage | 현재 적용된 언어의 [LanguageInfo](language-info.md)를 가져옵니다. |
-| SelectedLanguageIndex | 현재 적용된 언어의 인덱스를 가져옵니다. |
+| Static Properties     |                                                     |
+| --------------------- | --------------------------------------------------- |
+| Languages             | 프로젝트의 언어 목록을 가져옵니다.                                 |
+| SelectedLanguage      | 현재 적용된 언어의 [LanguageInfo](language-info.md)를 가져옵니다. |
+| SelectedLanguageIndex | 현재 적용된 언어의 인덱스를 가져옵니다.                              |
 
-| Static Events |  |
-| :--- | :--- |
+| Static Events     |                                  |
+| ----------------- | -------------------------------- |
 | OnLanguageChanged | SetLanguage가 호출될 경우 실행되는 이벤트입니다. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Static Functions</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">SetLanguage</td>
-      <td style="text-align:left">&#xC5B8;&#xC5B4;&#xB97C; &#xBCC0;&#xACBD;&#xD569;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SetLanguageToDefault</td>
-      <td style="text-align:left">&#xAE30;&#xBCF8; (&#xCCAB; &#xBC88;&#xC9F8;) &#xC5B8;&#xC5B4;&#xB85C;
-        &#xBCC0;&#xACBD;&#xD569;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">RemoveNullObjects</td>
-      <td style="text-align:left">
-        <p>object &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; null&#xC778; <a href="../localizer-object/">LocalizerObject</a>&#xB97C;
-          &#xC81C;&#xAC70;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>(&#xCC38;&#xACE0;: OnDestroy&#xC5D0;&#xC11C; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C;
-          &#xC81C;&#xAC70;&#xB429;&#xB2C8;&#xB2E4;.)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">GetLocalizersOfType</td>
-      <td style="text-align:left">&#xD574;&#xB2F9; <a href="../localizer-object/">LocalizerObject </a>&#xD0C0;&#xC785;&#xC758;
-        object&#xB4E4;&#xC744; &#xB9AC;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">IndexOfLanguage</td>
-      <td style="text-align:left">&#xC5B8;&#xC5B4;&#xC758; &#xC778;&#xB371;&#xC2A4;&#xB97C; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-  </tbody>
-</table>
+| Static Functions     |                                                                                                                            |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| SetLanguage          | 언어를 변경합니다.                                                                                                                 |
+| SetLanguageToDefault | 기본 (첫 번째) 언어로 변경합니다.                                                                                                       |
+| RemoveNullObjects    | <p>object 리스트에서 null인 <a href="../localizer-object/">LocalizerObject</a>를 제거합니다. </p><p>(참고: OnDestroy에서 기본적으로 제거됩니다.)</p> |
+| GetLocalizersOfType  | 해당 [LocalizerObject ](../localizer-object/)타입의 object들을 리스트에서 가져옵니다.                                                       |
+| IndexOfLanguage      | 언어의 인덱스를 가져옵니다.                                                                                                            |
 
 {% hint style="warning" %}
 게임 내에서 사용되는 언어의 값들은 **SelectedLanguage** 및 **SelectedLanguageIndex** 를 기반으로 결정됩니다. 기본값은 항상 0번 인덱스의 언어이며 이는 **SetLanguage**를 통해서만 변경됩니다. **Localizer Manager Window**를 통한 씬의 언어 변경은 이에 영향을 주지 않습니다. 정상적인 언어 변경을 위해 언어 테스트 이후 반드시 0번 인덱스의 언어로 변경하길 권장합니다.
 {% endhint %}
-

@@ -6,7 +6,7 @@ description: Script를 만들기 위해 거치는 최고의 선택
 
 **Script** 및 **Compressed Script**를 추출하기 위한 **Script Writer Node Collection**을 편집할 수 있는 에디터 윈도우 입니다. **Localized Dictionary** 또한 편집하고 추출할 수 있습니다.
 
-![Capsule Story &#xC608;&#xC81C;&#xC5D0; &#xC0AC;&#xC6A9;&#xB418;&#xB294; swnc &#xD30C;&#xC77C;](../.gitbook/assets/script_writer_window.png)
+![Capsule Story 예제에 사용되는 swnc 파일](../.gitbook/assets/script\_writer\_window.PNG)
 
 ## Toolbar
 
@@ -22,11 +22,11 @@ description: Script를 만들기 위해 거치는 최고의 선택
 
 컨텐츠가 추가될 때 자동적으로 주어지는 id 형식입니다. Area는 인덱스가 결정되는 **Directory** 범위 입니다. Format은 id의 형식입니다. {index}에 인덱스, {id}이 현재 **Directory** 이름이 들어갑니다. Length는 인덱스의 최소 길이 입니다.
 
-| Area |  |
-| :--- | :--- |
-| Local | 현재 Directory 범위 입니다. |
-| Top | 최상위 Directory 범위 입니다. |
-| Global | 모든 Directory 범위 입니다. |
+| Area   |                       |
+| ------ | --------------------- |
+| Local  | 현재 Directory 범위 입니다.  |
+| Top    | 최상위 Directory 범위 입니다. |
+| Global | 모든 Directory 범위 입니다.  |
 
 ### View
 
@@ -51,8 +51,6 @@ Directory 및 Content 노드를 계층 구조로 표시합니다. 우 클릭하�
 {% hint style="warning" %}
 해당 프로그램은 악성 코드는 없으나 서명되지 않은 프로그램이기 때문에 해당 문서에서 작성되지 않았습니다. 개발자 블로그는 한국어이며 설명 또한 한국어로 작성되어 있습니다.
 {% endhint %}
-
-
 
 
 

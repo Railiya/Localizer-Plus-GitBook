@@ -18,15 +18,14 @@ public class ParameterData {
 ```
 {% endcode %}
 
-| Variables |  |
-| :--- | :--- |
-| key | 참조에 사용되는 key 입니다. |
-| isArray | 배열 여부입니다. |
-| type | 파라미터 형식입니다. |
-| value | 파라미터의 값 입니다. |
-| arraySize | 배열의 크기 입니다. |
+| Variables |                   |
+| --------- | ----------------- |
+| key       | 참조에 사용되는 key 입니다. |
+| isArray   | 배열 여부입니다.         |
+| type      | 파라미터 형식입니다.       |
+| value     | 파라미터의 값 입니다.      |
+| arraySize | 배열의 크기 입니다.       |
 
-| Functions |  |
-| :--- | :--- |
+| Functions       |                              |
+| --------------- | ---------------------------- |
 | GetExpectedType | value에 의한 추측 파라미터 형식을 가져옵니다. |
-

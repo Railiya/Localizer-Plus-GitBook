@@ -30,27 +30,27 @@ public class Directory {
 ```
 {% endcode %}
 
-| Indexer |  |
-| :--- | :--- |
-| this | 경로와 인덱스로부터 컨텐츠를 가져옵니다. |
+| Indexer |                        |
+| ------- | ---------------------- |
+| this    | 경로와 인덱스로부터 컨텐츠를 가져옵니다. |
 
-| Properties |  |
-| :--- | :--- |
-| Parent | 상위 Directory를 가져옵니다. |
-| Name | Directory의 경로 이름입니다. |
-| Path | Directory의 전체 경로 입니다. |
-| ScriptCount | 보유중인 컨텐츠의 수 입니다. |
-| DirectoryCount | 하위 Directory의 수 입니다. |
+| Properties     |                       |
+| -------------- | --------------------- |
+| Parent         | 상위 Directory를 가져옵니다.  |
+| Name           | Directory의 경로 이름입니다.  |
+| Path           | Directory의 전체 경로 입니다. |
+| ScriptCount    | 보유중인 컨텐츠의 수 입니다.      |
+| DirectoryCount | 하위 Directory의 수 입니다.  |
 | SubDirectories | 하위 Directory들을 가져옵니다. |
-| ScriptKeys | 보유중인 컨텐츠의 id들을 가져옵니다. |
-| ScriptValues | 보유중인 컨텐츠들을 가져옵니다. |
+| ScriptKeys     | 보유중인 컨텐츠의 id들을 가져옵니다. |
+| ScriptValues   | 보유중인 컨텐츠들을 가져옵니다.     |
 
-| Functions |  |
-| :--- | :--- |
-| GetContent | 해당 id의 컨텐츠를 가져옵니다. |
-| GetSubDirectory | 해당 이름의 Directory를 가져옵니다. |
-| Contains | 해당 id의 컨텐츠의 존재 여부를 가져옵니다. |
-| HasIndex | 해당 인덱스의 컨텐츠 존재 여부를 가져옵니다. |
+| Functions       |                                |
+| --------------- | ------------------------------ |
+| GetContent      | 해당 id의 컨텐츠를 가져옵니다.             |
+| GetSubDirectory | 해당 이름의 Directory를 가져옵니다.       |
+| Contains        | 해당 id의 컨텐츠의 존재 여부를 가져옵니다.      |
+| HasIndex        | 해당 인덱스의 컨텐츠 존재 여부를 가져옵니다.      |
 | HasSubDirectory | 해당 이름의 Directory 존재 여부를 가져옵니다. |
 
 ## Directory로 부터 컨텐츠 가져오기
@@ -76,4 +76,3 @@ private void Start () {
 {% hint style="info" %}
 GetContent는 인덱서와 달리 현재 **Directory**의 컨텐츠를 가져오는 함수입니다. 인덱서로 하위 컨텐츠를 가져올 때는 추가적인 경로 조사가 필요하며 GetContent는 그런 작업 없이 바로 가져올 수 있습니다. 다만, 성능적으로 크게 차이는 없으니 편한 방법으로 사용해도 됩니다.
 {% endhint %}
-

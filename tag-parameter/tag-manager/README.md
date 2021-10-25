@@ -23,14 +23,12 @@ public static class TagManager {
 ```
 {% endcode %}
 
-| Inner Class |  |
-| :--- | :--- |
+| Inner Class                        |                                                     |
+| ---------------------------------- | --------------------------------------------------- |
 | [TagCollection](tag-collection.md) | [TagParameterList](../tag-parameter-list/) 컬렉션 입니다. |
 
-| Static Properties |  |
-| :--- | :--- |
-| Tags | [TagCollection](tag-collection.md) 입니다. |
+| Static Properties            |                                                                       |
+| ---------------------------- | --------------------------------------------------------------------- |
+| Tags                         | [TagCollection](tag-collection.md) 입니다.                               |
 | MaximumTagParameterArraySize | [TagParameter](../tag-parameter-list/tag-parameter.md)의 최대 배열 크기 입니다. |
-
-
 

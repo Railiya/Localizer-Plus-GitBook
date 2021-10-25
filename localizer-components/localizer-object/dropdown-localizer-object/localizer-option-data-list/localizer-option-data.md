@@ -17,14 +17,12 @@ public class LocalizerOptionData {
 ```
 {% endcode %}
 
-| Variables |  |
-| :--- | :--- |
-| text | 항목에 표시되는 텍스트 입니다. |
-| image | 항목에 표시되는 이미지 입니다. |
+| Variables |                   |
+| --------- | ----------------- |
+| text      | 항목에 표시되는 텍스트 입니다. |
+| image     | 항목에 표시되는 이미지 입니다. |
 
-| Constructors |  |
-| :--- | :--- |
+| Constructors        |                       |
+| ------------------- | --------------------- |
 | LocalizerOptionData | 텍스트와 이미지로부터 항목을 만듭니다. |
-
-
 

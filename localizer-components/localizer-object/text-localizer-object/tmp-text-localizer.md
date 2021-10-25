@@ -8,11 +8,11 @@ TextMeshPro 및 TextMeshProUGUI 컴포넌트에 사용되는 Localizer 컴포넌
 
 ## 컴포넌트
 
-![](../../../.gitbook/assets/tmp_text_localizer_inspector.png)
+![](../../../.gitbook/assets/tmp\_text\_localizer\_inspector.PNG)
 
-| Properties |  |
-| :--- | :--- |
-| LText | 언어별 텍스트를 지정합니다. 언어가 변경될 경우 컴포넌트의 텍스트가 변경된 언어의 텍스트로 설정됩니다. |
+| Properties |                                                           |
+| ---------- | --------------------------------------------------------- |
+| LText      | 언어별 텍스트를 지정합니다. 언어가 변경될 경우 컴포넌트의 텍스트가 변경된 언어의 텍스트로 설정됩니다. |
 
 ## 레퍼런스
 
@@ -27,32 +27,15 @@ public class TMPTextLocalizer : TextLocalizerObject {
 ```
 {% endcode %}
 
-| Properties |  |
-| :--- | :--- |
-| Component | TMP\_Text 컴포넌트를 가져옵니다. |
+| Properties |                        |
+| ---------- | ---------------------- |
+| Component  | TMP\_Text 컴포넌트를 가져옵니다. |
 
-| Inherited Properties |  |
-| :--- | :--- |
-| Text | TMP\_Text 컴포넌트의 text 값을 가져옵니다. |
+| Inherited Properties |                                |
+| -------------------- | ------------------------------ |
+| Text                 | TMP\_Text 컴포넌트의 text 값을 가져옵니다. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Inherited Functions</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">SetComponent</td>
-      <td style="text-align:left">
-        <p>TMP_Text &#xCEF4;&#xD3EC;&#xB10C;&#xD2B8;&#xB97C; &#xCC3E;&#xC544; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC131;&#xACF5;&#xD558;&#xBA74; true, &#xADF8;&#xB807;&#xC9C0; &#xC54A;&#xC73C;&#xBA74;
-          false &#xC785;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
+| Inherited Functions |                                                                      |
+| ------------------- | -------------------------------------------------------------------- |
+| SetComponent        | <p>TMP_Text 컴포넌트를 찾아 설정합니다. </p><p>성공하면 true, 그렇지 않으면 false 입니다.</p> |
 

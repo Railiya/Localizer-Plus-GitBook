@@ -2,7 +2,7 @@
 
 Text Mesh Pro Text의 각 스페이싱 옵션 값들을 가집니다.‌
 
-## 레퍼런스 <a id="undefined"></a>
+## 레퍼런스 <a href="undefined" id="undefined"></a>
 
 {% code title="TMPStyleLocalizer.cs" %}
 ```csharp
@@ -19,20 +19,18 @@ public struct SpacingOption {
 ```
 {% endcode %}
 
-| Variables | ​Title |
-| :--- | :--- |
+| Variables | ​Title               |
+| --------- | -------------------- |
 | character | 텍스트의 각 문자 사이의 간격입니다. |
-| word | 텍스트의 각 단어 사이의 간격입니다. |
-| line | 텍스트의 라인 사이의 간격입니다. |
-| paragraph | 텍스트의 문단 사이의 간격입니다. |
+| word      | 텍스트의 각 단어 사이의 간격입니다. |
+| line      | 텍스트의 라인 사이의 간격입니다.   |
+| paragraph | 텍스트의 문단 사이의 간격입니다.   |
 
-| Constructor |  |
-| :--- | :--- |
+| Constructor   |                                       |
+| ------------- | ------------------------------------- |
 | SpacingOption | 각 스페이싱 옵션 값들로부터 SpacingOption을 생성합니다. |
 
-| Static Functions |  |
-| :--- | :--- |
-| FromVector4 | Vector4 값들로부터 SpacingOption을 생성합니다. |
-
-
+| Static Functions |                                     |
+| ---------------- | ----------------------------------- |
+| FromVector4      | Vector4 값들로부터 SpacingOption을 생성합니다. |
 

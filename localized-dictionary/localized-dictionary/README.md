@@ -37,70 +37,28 @@ public class LocalizedDictionary {
 ```
 {% endcode %}
 
-| Indexer |  |
-| :--- | :--- |
-| this | 인덱스 또는 키를 통해 [KeyContentPair](key-content-pair.md)를 가져옵니다. |
+| Indexer |                                                            |
+| ------- | ---------------------------------------------------------- |
+| this    | 인덱스 또는 키를 통해 [KeyContentPair](key-content-pair.md)를 가져옵니다. |
 
-| Properties |  |
-| :--- | :--- |
-| Count | 보유중인 [KeyContentPair](key-content-pair.md)의 수를 가져옵니다. |
+| Properties |                                                       |
+| ---------- | ----------------------------------------------------- |
+| Count      | 보유중인 [KeyContentPair](key-content-pair.md)의 수를 가져옵니다. |
 
-| Functions |  |
-| :--- | :--- |
-| AddKeyContentPair | [KeyContentPair](key-content-pair.md)를 추가합니다. 이미 있다면 false를 반환합니다. |
-| IndexOfPair | [KeyContentPair](key-content-pair.md)의 인덱스를 가져옵니다. |
-| RemovePairAt | 해당 인덱스의 [KeyContentPair](key-content-pair.md)를 제거합니다. |
-| RemoveKeyContentPair | [KeyContentPair](key-content-pair.md)를 제거합니다. |
-| InsertPairAt | 해당 인덱스에 [KeyContentPair](key-content-pair.md)를 추가합니다. |
-| ContainsPair | 해당 키의 [KeyContentPair](key-content-pair.md)의 존재 여부입니다. |
-| GetKeyContentPair | 해당 키의 [KeyContentPair](key-content-pair.md)를 가져옵니다. |
+| Functions            |                                                                       |
+| -------------------- | --------------------------------------------------------------------- |
+| AddKeyContentPair    | [KeyContentPair](key-content-pair.md)를 추가합니다. 이미 있다면 false를 반환합니다.    |
+| IndexOfPair          | [KeyContentPair](key-content-pair.md)의 인덱스를 가져옵니다.                    |
+| RemovePairAt         | 해당 인덱스의 [KeyContentPair](key-content-pair.md)를 제거합니다.                 |
+| RemoveKeyContentPair | [KeyContentPair](key-content-pair.md)를 제거합니다.                         |
+| InsertPairAt         | 해당 인덱스에 [KeyContentPair](key-content-pair.md)를 추가합니다.                 |
+| ContainsPair         | 해당 키의 [KeyContentPair](key-content-pair.md)의 존재 여부입니다.                |
+| GetKeyContentPair    | 해당 키의 [KeyContentPair](key-content-pair.md)를 가져옵니다.                   |
 | TryGetKeyContentPair | 해당 키의 [KeyContentPair](key-content-pair.md)를 가져옵니다. 없다면 false를 반환합니다. |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Static Functions</th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">GetKeyContentPairFromCSV</td>
-      <td style="text-align:left">
-        <p>csv &#xB0B4;&#xC6A9;&#xC73C;&#xB85C;&#xBD80;&#xD130; <a href="key-content-pair.md">KeyContentPair</a>&#xB85C;
-          &#xBCC0;&#xD658;&#xD558;&#xC5EC; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</p>
-        <p>ignoreFirstLine&#xAC00; true&#xB77C;&#xBA74; &#xCCAB; &#xBC88;&#xC9F8;
-          &#xC904;&#xC744; &#xBB34;&#xC2DC;&#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">GetKeyContentPairFromTSV</td>
-      <td style="text-align:left">
-        <p>tsv &#xB0B4;&#xC6A9;&#xC73C;&#xB85C;&#xBD80;&#xD130; <a href="key-content-pair.md">KeyContentPair</a>&#xB85C;
-          &#xBCC0;&#xD658;&#xD558;&#xC5EC; &#xAC00;&#xC838;&#xC635;&#xB2C8;&#xB2E4;.</p>
-        <p>ignoreFirstLine&#xAC00; true&#xB77C;&#xBA74; &#xCCAB; &#xBC88;&#xC9F8;
-          &#xC904;&#xC744; &#xBB34;&#xC2DC;&#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">LoadKeyContentPairFromSpreadSheets</td>
-      <td style="text-align:left">
-        <p>&#xAD6C;&#xAE00; &#xC2A4;&#xD504;&#xB808;&#xB4DC; &#xC2DC;&#xD2B8;&#xB85C;&#xBD80;&#xD130;
-          <a
-          href="key-content-pair.md">KeyContentPair</a>&#xB97C; &#xBE44;&#xB3D9;&#xAE30; &#xB85C;&#xB4DC;&#xD569;&#xB2C8;&#xB2E4;.
-            &#xB85C;&#xB4DC;&#xAC00; &#xB05D;&#xB098;&#xBA74; onLoadComplete&#xB97C;
-            &#xD638;&#xCD9C;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>ignoreFirstLine&#xAC00; true&#xB77C;&#xBA74; &#xCCAB; &#xBC88;&#xC9F8;
-          &#xC904;&#xC744; &#xBB34;&#xC2DC;&#xD569;&#xB2C8;&#xB2E4;. convertToExportURL&#xC774;
-          true&#xB77C;&#xBA74; url&#xC744; tsv &#xCD94;&#xCD9C; &#xD615;&#xC2DD;&#xC73C;&#xB85C;
-          &#xBCC0;&#xD658;&#xD558;&#xC5EC; &#xC0AC;&#xC6A9;&#xD569;&#xB2C8;&#xB2E4;.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">GetSpreadSheetsExportURL</td>
-      <td style="text-align:left">url&#xC744; &#xCD94;&#xCD9C; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xBCC0;&#xD658;&#xD569;&#xB2C8;&#xB2E4;.
-        format&#xC740; &#xD30C;&#xC77C; &#xD615;&#xC2DD;&#xC785;&#xB2C8;&#xB2E4;.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Static Functions                   |                                                                                                                                                                                                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GetKeyContentPairFromCSV           | <p>csv 내용으로부터 <a href="key-content-pair.md">KeyContentPair</a>로 변환하여 가져옵니다. </p><p>ignoreFirstLine가 true라면 첫 번째 줄을 무시합니다.</p>                                                                                          |
+| GetKeyContentPairFromTSV           | <p>tsv 내용으로부터 <a href="key-content-pair.md">KeyContentPair</a>로 변환하여 가져옵니다. </p><p>ignoreFirstLine가 true라면 첫 번째 줄을 무시합니다.</p>                                                                                          |
+| LoadKeyContentPairFromSpreadSheets | <p>구글 스프레드 시트로부터 <a href="key-content-pair.md">KeyContentPair</a>를 비동기 로드합니다. 로드가 끝나면 onLoadComplete를 호출합니다. </p><p>ignoreFirstLine가 true라면 첫 번째 줄을 무시합니다. convertToExportURL이 true라면 url을 tsv 추출 형식으로 변환하여 사용합니다.</p> |
+| GetSpreadSheetsExportURL           | url을 추출 형식으로 변환합니다. format은 파일 형식입니다.                                                                                                                                                                                  |
